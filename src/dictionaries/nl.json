@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "home": "Home",
+    "aiSolution": "AI Oplossing",
+    "company": "Bedrijf",
+    "services": "Diensten",
+    "industries": "Industrieën",
+    "caseStudies": "Case Studies",
+    "blogs": "Blogs",
+    "cta": "Offerte Aanvragen"
+  },
+  "hero": {
+    "badge": "Laten we eerst je MVP bouwen",
+    "headingMain": "Digitale Oplossingen Bouwen voor een",
+    "headingHighlight": "Slimmere Toekomst",
+    "description": "Synapse is een toonaangevend software-innovatiebedrijf dat samenwerkt met oprichters en enterprise-teams. Wij leveren intelligente cloudarchitecturen, krachtige webapplicaties, UI/UX-ontwerpen en schaalbare systemen die presteren onder zware belasting.",
+    "bubbleAI": "Slimme AI-oplossing",
+    "bubbleShield": "Beveiligd & Versleuteld"
+  },
+  "promo": {
+    "title": "Ambitieuze Visies Transformeren naar Digitale Impact",
+    "description1": "Het bouwen van geweldige software mag niet aanvoelen als het navigeren door een doolhof. Te veel initiatieven lopen vertraging op door communicatiesilo's, overbodige functies en instabiele technologie. Wij nemen deze knelpunten weg door pragmatische engineering te combineren met gebruikersgericht ontwerp, zodat uw product op tijd lanceert en vanaf de eerste dag betrouwbaar draait.",
+    "description2": "Of u nu een startup bent die een MVP valideert of een enterprise-team dat verouderde systemen moderniseert, ons beproefde agile opleveringsmodel past zich aan uw behoeften aan. We richten ons op het schrijven van schone, modulaire code, het opzetten van robuuste pipelines en het creëren van intuïtieve interfaces die gebruikersbetrokkenheid stimuleren."
+  },
+  "featured": {
+    "title": "Genoemd in"
+  },
+  "services": {
+    "titleMain": "Wat We Doen",
+    "titleSub": "(Diensten Overzicht)",
+    "cta": "Ontdek Meer",
+    "mobile": {
+      "title": "Mobiele App Ontwikkeling",
+      "desc": "Het leveren van krachtige iOS- en Android-applicaties. Wij zijn gespecialiseerd in React Native en Flutter voor native-snelheid, soepele animaties en offline-first mogelijkheden."
+    },
+    "web": {
+      "title": "Webontwikkeling",
+      "desc": "Van conversiegerichte landingspagina's tot complexe webplatforms. Wij bouwen veilige, zoekmachine-geoptimaliseerde web-apps die responsief en snel zijn, en eenvoudig schalen wanneer uw gebruikersbestand groeit."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "desc": "Implementaties mogen geen gok zijn. Wij richten CI/CD-pipelines, robuuste cloudmonitoring en automatische schaling in om uw operatie soepel en cloudkosten voorspelbaar te houden."
+    },
+    "uiux": {
+      "title": "UI/UX Ontwerp",
+      "desc": "Intuïtief productontwerp dat natuurlijk aanvoelt. We brengen gebruikersreizen in kaart, nemen drempels weg en bouwen designsystemen die zorgen voor strakke visuele consistentie op alle pagina's."
+    },
+    "blockchain": {
+      "title": "Enterprise Blockchain",
+      "desc": "Decentralisatie ontworpen voor echte use cases. Wij ontwikkelen veilige smart contracts, dApps en blockchain-integraties met een sterke focus op cryptografische beveiliging en audits."
+    },
+    "devs": {
+      "title": "Huur Toegewijde Ontwikkelaars",
+      "desc": "Versnel uw ontwikkelingscyclus. Krijg toegang to senior engineers die rechtstreeks in uw teams integreren, uw processen volgen en schone, goed geteste code opleveren."
+    }
+  },
+  "portfolio": {
+    "titleMain": "Digitale Producten Gebouwd voor",
+    "titleSub": "Groei",
+    "subtitle": "Bekijk hoe we producten van idee tot lancering brengen, en ze stabiel, schaalbaar en eenvoudig doorontwikkelen.",
+    "projects": {
+      "eva": {
+        "title": "AURASOCIAL",
+        "desc": "Volgende generatie AI-planning en sociale automatisering"
+      },
+      "mental": {
+        "title": "MINDFLOW",
+        "desc": "Real-time telegeneeskunde- en welzijnsnetwerk"
+      },
+      "daeem": {
+        "title": "SWIFTBITE",
+        "desc": "De ultieme app voor eten bezorgen en uit eten gaan"
+      },
+      "genesis": {
+        "title": "GENESIS ERP",
+        "desc": "Enterprise workflow & SaaS cloud-platform"
+      },
+      "vedguru": {
+        "title": "ASTROGUIDE",
+        "desc": "Live astrologisch adviesplatform"
+      },
+      "artune": {
+        "title": "MUSELINK",
+        "desc": "Gecureerde marktplaats voor moderne kunst"
+      }
+    },
+    "cta": "Ontdek Meer Projecten"
+  },
+  "blog": {
+    "title": "Digitale Gieterij",
+    "cta": "Alles Ontdekken",
+    "featured": {
+      "title": "Waarom Elke Ontwikkelaar AI-Tools Moet Omarmen in 2026",
+      "desc": "De wereld van softwareontwikkeling verandert snel. In 2026 zijn AI-tools niet langer een futuristisch concept - ze zijn een noodzaak voor ontwikkelaars die voorop willen blijven lopen.",
+      "readMore": "Lees Meer"
+    },
+    "posts": [
+      {
+        "category": "BLOCKCHAIN",
+        "title": "Technologie die zorgt voor veilige gegevens en betalingen"
+      },
+      {
+        "category": "LOGISTIEK",
+        "title": "Belangrijke dingen die u moet weten over de ontwikkeling van maaltijdbezorgingsapps"
+      },
+      {
+        "category": "ZAKELIJK",
+        "title": "Hoeveel kost het om een mobiele app te bouwen in de VS"
+      }
+    ]
+  },
+  "faq": {
+    "titleMain": "Veelgestelde",
+    "titleSub": "Vragen",
+    "subtitle": "Of u nu uw marketingstrategie wilt verbeteren of uw operationele processen wilt optimaliseren, ons platform helpt u verder.",
+    "questions": [
+      {
+        "q": "Welke diensten voor mobiele app-ontwikkeling bieden jullie aan?",
+        "a": "Ons platform is in staat om een breed scala aan gegevens te analyseren, waaronder klantgegevens, financiële gegevens, verkoopgegevens en meer."
+      },
+      {
+        "q": "Welke softwareontwikkelingsdiensten bieden jullie aan?",
+        "a": "Wij bieden volledige ontwikkelingsdiensten, waaronder SaaS-architectuurontwerp, op maat gemaakte webapplicaties, mobiele apps en robuuste API-integraties."
+      },
+      {
+        "q": "Hoe houden jullie mijn app en gegevens veilig?",
+        "a": "Beveiliging is vanaf de eerste dag ingebouwd. We maken gebruik van standaard encryptie, volgen veilige codeerrichtlijnen en voeren periodieke kwetsbaarheidstesten uit."
+      },
+      {
+        "q": "Bieden jullie ook onderhouds- en ondersteuningsdiensten aan?",
+        "a": "Ja, we bieden voortdurende ondersteuning na de lancering, prestatieoptimalisatie, systeemupdates en schaalbaarheidsaudits."
+      },
+      {
+        "q": "Ontwikkelen jullie software voor zowel mobiele als webplatforms?",
+        "a": "Absoluut. We bouwen responsieve webarchitecturen met Next.js/React en mobiele apps met Flutter en React Native."
+      },
+      {
+        "q": "Hoe lang duurt het om een volledig functionerende app te maken?",
+        "a": "Een typisch Minimum Viable Product (MVP) duurt 8 tot 12 weken om te ontwerpen, ontwikkelen en lanceren, afhankelijk van de complexiteit van de functies."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Hoor Van Onze Klanten",
+    "subtitle": "Gebouwd met passie, aangedreven door innovatie - onze projecten spreken voor zich.",
+    "cta": "Bekijk Meer Beoordelingen",
+    "sidebarTitle": "Ontworpen voor klanten wereldwijd.",
+    "sidebarStat": "1.000+",
+    "sidebarLabel": "Klanten",
+    "reviews": [
+      {
+        "author": "Emma Rodriguez",
+        "location": "VS",
+        "text": "Delaine Technologies heeft onze mobiele app sneller dan gepland geleverd en de verwachtingen overtroffen. De UI/UX is van wereldklasse en het ondersteuningsteam is zeer snel."
+      },
+      {
+        "author": "James Whitaker",
+        "location": "VK",
+        "text": "We hebben met Delaine samengewerkt voor een op maat gemaakt e-commerce platform en de resultaten waren uitstekend. Soepele prestaties, mooi design en goede communicatie."
+      },
+      {
+        "author": "Sophie Dubois",
+        "location": "FR",
+        "text": "Hun DevOps-expertise heeft ons geholpen schalen zonder downtime. Geautomatiseerde CI/CD-pipelines en geoptimaliseerde hosting hebben ons maandelijks duizenden dollars bespaard."
+      },
+      {
+        "author": "Lars Janssen",
+        "location": "NL",
+        "text": "Een team van zeer competente professionals. Ze namen onze vage productspecificatie en veranderden deze in een volledig werkende MVP waar gebruikers dol op zijn."
+      }
+    ]
+  },
+  "trusted": {
+    "title": "Trusted By",
+    "subtitle": "Over 1500+ softwarebedrijven die groeien met Synapse",
+    "cta": "Bekijk Case Study"
+  },
+  "industries": {
+    "titleMain": "Industrieën Die We",
+    "titleSub": "Bedienen",
+    "cta": "Alle Industrieën Bekijken",
+    "fintech": {
+      "title": "Fintech Software",
+      "desc": "Bied uw klanten veilige en bliksemsnelle financiële oplossingen. Wij bouwen robuuste betalingsgateways, slimme digitale portemonnees en vermogensbeheerplatforms met de hoogste veiligheidsnormen."
+    },
+    "travel": {
+      "title": "Reizen & Horeca",
+      "desc": "Zorg voor moderne boekingservaringen die reizigers direct overtuigen. Ons team bouwt reserveringssystemen, reisplanners en gespecialiseerde EHR systems die administratie vereenvoudigen."
+    },
+    "logistics": {
+      "title": "Logistiek",
+      "desc": "Transformeer de manier waarop passagiers reizen, hotels en transport boeken. Wij ontwerpen intuïtieve zoekfuncties, realtime routeplanners en afrekenprocessen zonder ingewikkelde formulieren."
+    },
+    "retail": {
+      "title": "Detailhandel & E-commerce",
+      "desc": "Blijf de verwachtingen van de koper voor met snelle webwinkels. Wij bouwen krachtige ecommerce websites, marktplaatsen en geïntegreerde kassasystemen geoptimaliseerd voor piekverkopen."
+    },
+    "supplyChain": {
+      "title": "Logistiek & Supply Chain",
+      "desc": "Krijg volledige operationele controle over uw logistieke netwerk. Wij creëren trackingportalen, geautomatiseerde dispatch-tools en routeplanners om leveringen efficiënt te beheren."
+    },
+    "education": {
+      "title": "Onderwijs",
+      "desc": "Verbind docenten en leerlingen via interactieve digitale hulpmiddelen. Wij bouwen op maat gemaakte LMS platforms, virtuele klaslokalen en studentenportalen ontworpen voor soepele werkstromen."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Synapse Technologies Pvt. Ltd. Alle Rechten Voorbehouden.",
+    "concept": "Van concept tot creatie",
+    "terms": "Algemene Voorwaarden",
+    "privacy": "Privacybeleid",
+    "servicesTitle": "Diensten",
+    "solutionsTitle": "Oplossingen",
+    "companyTitle": "Bedrijf",
+    "contactsTitle": "Contact",
+    "services": [
+      "Mobiele App Ontwikkeling",
+      "Webontwikkeling",
+      "DevOps",
+      "UI/UX Ontwerp",
+      "Digitale Marketing",
+      "AI Machine",
+      "E-Commerce"
+    ],
+    "solutions": [
+      "Bedrijfsadvies",
+      "Financieel Advies",
+      "Bedrijfsplanning"
+    ],
+    "company": [
+      "Over ons",
+      "Galerij",
+      "Partners",
+      "Klanten",
+      "Neem contact op"
+    ],
+    "email": "hello@synapse.ai",
+    "offices": "Onze Kantoren",
+    "phone": "+1 (555) 019-2834"
+  }
+}

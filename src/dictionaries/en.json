@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "home": "Home",
+    "aiSolution": "AI Solution",
+    "company": "Company",
+    "services": "Services",
+    "industries": "Industries",
+    "caseStudies": "Case Studies",
+    "blogs": "Blogs",
+    "cta": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Let's build your MVP first",
+    "headingMain": "Building Digital Solutions for a",
+    "headingHighlight": "Smarter Future",
+    "description": "Synapse is a leading software innovation company partnering with founders and enterprise teams. We deliver intelligent cloud architectures, high-performance web applications, UI/UX designs, and scalable systems that thrive under load.",
+    "bubbleAI": "Smart AI solution",
+    "bubbleShield": "Secured & Encrypted"
+  },
+  "promo": {
+    "title": "Engineering Digital Products Built for Real Impact",
+    "description1": "Building great software shouldn't feel like navigating a maze. Too many initiatives stall due to communication silos, feature bloat, and fragile tech stacks. We eliminate these bottlenecks by combining pragmatic engineering with user-centric design, ensuring your product launches on time and runs reliably from day one.",
+    "description2": "Whether you are a startup validating an MVP or an enterprise team upgrading legacy infrastructure, our proven agile delivery framework adapts to your requirements. We focus on writing clean, modular code, setting up bulletproof pipelines, and creating intuitive interfaces that drive long-term engagement."
+  },
+  "featured": {
+    "title": "Featured on"
+  },
+  "services": {
+    "titleMain": "What We Do",
+    "titleSub": "(Services Overview)",
+    "cta": "Explore More",
+    "mobile": {
+      "title": "Mobile App Development",
+      "desc": "Delivering high-performance iOS and Android applications. We specialize in React Native and Flutter for native-speed UI, seamless animations, and offline-first capabilities."
+    },
+    "web": {
+      "title": "Web Development",
+      "desc": "From high-conversion landing pages to complex web platforms. We build secure, search-optimized web apps that are responsive, fast, and easy to scale as your user base grows."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "desc": "Deployments shouldn't be a gamble. We establish CI/CD pipelines, robust cloud monitoring, and automated scaling to keep operations smooth and cloud costs predictable."
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "desc": "Intuitive product design that feels natural. We map user journeys, remove friction points, and build design systems that ensure clean visual consistency across all pages."
+    },
+    "blockchain": {
+      "title": "Enterprise Blockchain",
+      "desc": "Decentralization designed for real use cases. We develop secure smart contracts, dApps, and blockchain integration with a strong focus on cryptographic security and audits."
+    },
+    "devs": {
+      "title": "Hire Dedicated Developers",
+      "desc": "Accelerate your development cycle. Access senior engineers who integrate directly with your teams, follow your processes, and deliver clean, well-tested code."
+    }
+  },
+  "portfolio": {
+    "titleMain": "Digital Products Built for",
+    "titleSub": "Growth",
+    "subtitle": "See how we take products from idea to launch, then keep them stable, scalable, and easy to evolve.",
+    "cta": "Explore More Projects",
+    "projects": {
+      "eva": {
+        "title": "AURASOCIAL",
+        "desc": "Next-Gen AI Scheduling & Social Automation"
+      },
+      "mental": {
+        "title": "MINDFLOW",
+        "desc": "Real-time Telemedicine & Wellness Network"
+      },
+      "daeem": {
+        "title": "SWIFTBITE",
+        "desc": "The Ultimate Food Delivery and Dining App"
+      },
+      "genesis": {
+        "title": "GENESIS ERP",
+        "desc": "Enterprise Workflow & SaaS Cloud Platform"
+      },
+      "vedguru": {
+        "title": "ASTROGUIDE",
+        "desc": "Live Astrology Consultation Platform"
+      },
+      "artune": {
+        "title": "MUSELINK",
+        "desc": "Curated Modern Art Marketplace"
+      }
+    }
+  },
+  "blog": {
+    "title": "Digital Foundry",
+    "cta": "Explore All",
+    "featured": {
+      "title": "Why Every Developer Should Embrace AI Tools in 2026",
+      "desc": "The world of software development is changing rapidly. In 2026, artificial intelligence (AI) tools are no longer a futuristic concept—they are a necessity for developers who want to stay ahead.",
+      "readMore": "Read More"
+    },
+    "posts": [
+      {
+        "category": "BLOCKCHAIN",
+        "title": "Technology ensuring secure data and payments"
+      },
+      {
+        "category": "LOGISTICS",
+        "title": "Important things you need to know about Food delivery app Development"
+      },
+      {
+        "category": "BUSINESS",
+        "title": "How much does it cost to build a mobile app in USA"
+      }
+    ]
+  },
+  "faq": {
+    "titleMain": "Frequently asked",
+    "titleSub": "Questions",
+    "subtitle": "Whether you're looking to improve your marketing strategy or optimize your operations, our platform has you covered.",
+    "questions": [
+      {
+        "q": "What mobile app development services do you offer?",
+        "a": "Our platform is capable of analyzing a wide range of data, including customer data, financial data, sales data, and more."
+      },
+      {
+        "q": "What software development services do you offer?",
+        "a": "We offer full-cycle development services, including SaaS architecture design, custom web applications, mobile apps, and robust API integrations."
+      },
+      {
+        "q": "How do you keep my app and data secure?",
+        "a": "Security is built-in from day one. We employ industry-standard encryption, follow secure coding guidelines, and perform routine vulnerability tests."
+      },
+      {
+        "q": "Do you offer app maintenance and support services?",
+        "a": "Yes, we provide ongoing post-launch support, performance optimization, system updates, and scaling audits to adapt to your growth."
+      },
+      {
+        "q": "Do you develop software for both mobile and web platforms?",
+        "a": "Absolutely. We build responsive web architectures using Next.js/React and native-speed mobile applications using Flutter and React Native."
+      },
+      {
+        "q": "How long does it take to create a fully-functioning app?",
+        "a": "A typical Minimum Viable Product (MVP) takes 8 to 12 weeks to design, develop, and launch depending on the complexity of its features."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Hear From Our Clients",
+    "subtitle": "Built with passion, powered by innovation—our projects speak for themselves.",
+    "cta": "View More Reviews",
+    "sidebarTitle": "Crafted for clients worldwide.",
+    "sidebarStat": "1,000+",
+    "sidebarLabel": "Clients",
+    "reviews": [
+      {
+        "author": "Emma Rodriguez",
+        "location": "USA",
+        "text": "Delaine Technologies delivered our mobile app ahead of schedule and exceeded expectations. The UI/UX is world-class, and the support team is incredibly responsive."
+      },
+      {
+        "author": "James Whitaker",
+        "location": "UK",
+        "text": "We partnered with Delaine for a custom eCommerce platform, and the results were outstanding. Smooth performance, beautiful design, and great communication."
+      },
+      {
+        "author": "Sophie Dubois",
+        "location": "FR",
+        "text": "Their DevOps expertise helped us scale without any downtime. Automated CI/CD pipelines and optimized hosting saved us thousands of dollars monthly."
+      },
+      {
+        "author": "Lars Janssen",
+        "location": "NL",
+        "text": "A team of highly competent professionals. They took our vague product specification and turned it into a fully working MVP that users love."
+      }
+    ]
+  },
+  "trusted": {
+    "title": "Trusted By",
+    "subtitle": "Over 1500+ software businesses growing with Synapse",
+    "cta": "View Case Study"
+  },
+  "industries": {
+    "titleMain": "Industries We",
+    "titleSub": "Serve",
+    "cta": "View All Industries",
+    "fintech": {
+      "title": "Fintech Software",
+      "desc": "Empower your customers with secure, lightning-fast financial solutions. We engineer robust payment gates, smart digital wallets, and wealth-management platforms featuring top-tier safety standards and frictionless transaction flows."
+    },
+    "travel": {
+      "title": "Travel & Hospitality",
+      "desc": "Deliver modern booking journeys that convert travelers instantly. Our team builds comprehensive reservation engines, itinerary planners, and specialized EHR systems that ease administration for medical tourism and hospitality portals."
+    },
+    "logistics": {
+      "title": "Logistics",
+      "desc": "Transform how passengers discover and book tours, hotel stays, and transportation. We design intuitive searching tools, real-time routing engines, and checkouts that eliminate complex forms and reduce drop-off rates."
+    },
+    "retail": {
+      "title": "Retail & E-commerce",
+      "desc": "Stay ahead of buyer expectations with highly responsive storefronts. We build high-volume ecommerce websites, multi-vendor marketplaces, and integrated POS databases optimized for maximum speed and scale during peak flash sales."
+    },
+    "supplyChain": {
+      "title": "Logistics and Supply Chain",
+      "desc": "Gain end-to-end operational visibility over your global shipping network. We create tracking portals, automated dispatcher tools, and fleet route optimizers to help your dispatchers coordinate deliveries efficiently."
+    },
+    "education": {
+      "title": "Education",
+      "desc": "Bridge the gap between instructors and learners through interactive digital tools. We build custom LMS platforms, virtual classrooms, and comprehensive student administration portals designed for engaging and effortless workflows."
+    }
+  },
+  "footer": {
+    "rights": "© 2026 Synapse Technologies Pvt. Ltd. All Rights Reserved.",
+    "concept": "From concept to creation",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "servicesTitle": "Services",
+    "solutionsTitle": "Solutions",
+    "companyTitle": "Company",
+    "contactsTitle": "Contact Us",
+    "services": [
+      "Mobile App Development",
+      "Web Development",
+      "DevOps",
+      "UI/UX Design",
+      "Digital Marketing",
+      "AI Machine",
+      "E-Commerce"
+    ],
+    "solutions": [
+      "Business Consulting",
+      "Financial Advisory",
+      "Business Planning"
+    ],
+    "company": [
+      "About us",
+      "Gallery",
+      "Partners",
+      "Customers",
+      "Contact us"
+    ],
+    "email": "hello@synapse.ai",
+    "offices": "Our Offices",
+    "phone": "+1 (555) 019-2834"
+  }
+}
