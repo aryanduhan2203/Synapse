@@ -50,7 +50,7 @@ export default function Promo({ dict }: PromoProps) {
             <div className="pt-2">
               <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-slate-950 text-teal-400 text-xs font-bold tracking-wider uppercase">
                 <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse"></span>
-                Synapse Core Methodology
+                Instasolution Core Methodology
               </span>
             </div>
           </div>

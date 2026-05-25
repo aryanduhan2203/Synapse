@@ -34,10 +34,9 @@ export default function Footer({ dict, lang }: FooterProps) {
           <div className="lg:col-span-3 space-y-6">
             {/* Logo */}
             <div className="flex items-center gap-1.5 select-none">
-              <span className="text-2xl font-extrabold bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent">
-                Synapse
+              <span className="text-2xl font-extrabold text-white">
+                <span className="bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent">I</span>nstasolution
               </span>
-              <div className="w-1.5 h-1.5 rounded-full bg-teal-400"></div>
             </div>
             
             {/* Tagline */}

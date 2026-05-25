@@ -7,13 +7,39 @@
     "industries": "Industrieën",
     "caseStudies": "Case Studies",
     "blogs": "Blogs",
-    "cta": "Offerte Aanvragen"
+    "cta": "Offerte Aanvragen",
+    "caseStudiesDropdown": {
+      "daeem": {
+        "title": "Daeem",
+        "desc": "Een uitgebreide on-demand bezorgings- en logistieke oplossing."
+      },
+      "vedguru": {
+        "title": "Vedguru",
+        "desc": "Een digitaal spiritueel ecosysteem dat gebruikers verbindt met Vedische wijsheid."
+      },
+      "galinia": {
+        "title": "MentalWell",
+        "desc": "Uw persoonlijke metgezel voor mentaal welzijn."
+      },
+      "eva": {
+        "title": "Eva Social",
+        "desc": "Een interactief platform voor sociale netwerken."
+      },
+      "artune": {
+        "title": "Artune",
+        "desc": "Flat Is Dood. Diepte Is Hier."
+      },
+      "das": {
+        "title": "DAS",
+        "desc": "Een premium digitale couture-ervaring die luxe opnieuw definieert."
+      }
+    }
   },
   "hero": {
     "badge": "Laten we eerst je MVP bouwen",
     "headingMain": "Digitale Oplossingen Bouwen voor een",
     "headingHighlight": "Slimmere Toekomst",
-    "description": "Synapse is een toonaangevend software-innovatiebedrijf dat samenwerkt met oprichters en enterprise-teams. Wij leveren intelligente cloudarchitecturen, krachtige webapplicaties, UI/UX-ontwerpen en schaalbare systemen die presteren onder zware belasting.",
+    "description": "Instasolution is een toonaangevend software-innovatiebedrijf dat samenwerkt met oprichters en enterprise-teams. Wij leveren intelligente cloudarchitecturen, krachtige webapplicaties, UI/UX-ontwerpen en schaalbare systemen die presteren onder zware belasting.",
     "bubbleAI": "Slimme AI-oplossing",
     "bubbleShield": "Beveiligd & Versleuteld"
   },
@@ -60,28 +86,28 @@
     "subtitle": "Bekijk hoe we producten van idee tot lancering brengen, en ze stabiel, schaalbaar en eenvoudig doorontwikkelen.",
     "projects": {
       "eva": {
-        "title": "AURASOCIAL",
-        "desc": "Volgende generatie AI-planning en sociale automatisering"
+        "title": "Eva Social",
+        "desc": "Een interactief platform voor sociale netwerken."
       },
       "mental": {
-        "title": "MINDFLOW",
-        "desc": "Real-time telegeneeskunde- en welzijnsnetwerk"
+        "title": "MentalWell",
+        "desc": "Uw persoonlijke metgezel voor mentaal welzijn."
       },
       "daeem": {
-        "title": "SWIFTBITE",
-        "desc": "De ultieme app voor eten bezorgen en uit eten gaan"
+        "title": "Daeem",
+        "desc": "Een uitgebreide on-demand bezorgings- en logistieke oplossing."
       },
       "genesis": {
-        "title": "GENESIS ERP",
-        "desc": "Enterprise workflow & SaaS cloud-platform"
+        "title": "DAS",
+        "desc": "Een premium digitale couture-ervaring die luxe opnieuw definieert."
       },
       "vedguru": {
-        "title": "ASTROGUIDE",
-        "desc": "Live astrologisch adviesplatform"
+        "title": "Vedguru",
+        "desc": "Een digitaal spiritueel ecosysteem dat gebruikers verbindt met Vedische wijsheid."
       },
       "artune": {
-        "title": "MUSELINK",
-        "desc": "Gecureerde marktplaats voor moderne kunst"
+        "title": "Artune",
+        "desc": "Flat Is Dood. Diepte Is Hier."
       }
     },
     "cta": "Ontdek Meer Projecten"
@@ -151,12 +177,12 @@
       {
         "author": "Emma Rodriguez",
         "location": "VS",
-        "text": "Delaine Technologies heeft onze mobiele app sneller dan gepland geleverd en de verwachtingen overtroffen. De UI/UX is van wereldklasse en het ondersteuningsteam is zeer snel."
+        "text": "Instasolution heeft onze mobiele app sneller dan gepland geleverd en de verwachtingen overtroffen. De UI/UX is van wereldklasse en het ondersteuningsteam is zeer snel."
       },
       {
         "author": "James Whitaker",
         "location": "VK",
-        "text": "We hebben met Delaine samengewerkt voor een op maat gemaakt e-commerce platform en de resultaten waren uitstekend. Soepele prestaties, mooi design en goede communicatie."
+        "text": "We hebben met Instasolution samengewerkt voor een op maat gemaakt e-commerce platform en de resultaten waren uitstekend. Soepele prestaties, mooi design en goede communicatie."
       },
       {
         "author": "Sophie Dubois",
@@ -172,7 +198,7 @@
   },
   "trusted": {
     "title": "Trusted By",
-    "subtitle": "Over 1500+ softwarebedrijven die groeien met Synapse",
+    "subtitle": "Over 1500+ softwarebedrijven die groeien met Instasolution",
     "cta": "Bekijk Case Study"
   },
   "industries": {
@@ -205,7 +231,7 @@
     }
   },
   "footer": {
-    "rights": "© 2026 Synapse Technologies Pvt. Ltd. Alle Rechten Voorbehouden.",
+    "rights": "© 2026 Insta Solutions BV. Alle Rechten Voorbehouden.",
     "concept": "Van concept tot creatie",
     "terms": "Algemene Voorwaarden",
     "privacy": "Privacybeleid",
@@ -234,8 +260,886 @@
       "Klanten",
       "Neem contact op"
     ],
-    "email": "hello@synapse.ai",
-    "offices": "Onze Kantoren",
-    "phone": "+1 (555) 019-2834"
+    "email": "info@instasolution.nl",
+    "offices": "Hoofddorp, Nederland",
+    "phone": "06 47070940"
+  },
+  "caseStudyDaeem": {
+    "category": "CASE STUDY",
+    "title": "Probleem ➔ Oplossing ➔ Impact",
+    "subtitle": "Hoe we Daeem Delivery App hebben geholpen de bezorgtijd met 38% te verkorten in 4 maanden",
+    "description": "Hoe we het toonaangevende on-demand bezorg- en logistiekplatform van Saoedi-Arabië vanaf de grond hebben opgebouwd.",
+    "stat1Value": "38%",
+    "stat1Label": "Kortere Bezorgtijd",
+    "stat2Value": "99,9%",
+    "stat2Label": "Systeembeschikbaarheid",
+    "stat3Value": "1M+",
+    "stat3Label": "Maandelijkse Leveringen",
+    "overview": {
+      "title": "Klant Overzicht",
+      "desc1": "Daeem Delivery is een on-demand logistieke dienstverlener gevestigd in Saoedi-Arabië. Ze wilden maaltijdbezorging stroomlijnen, de routebeschrijving voor chauffeurs verbeteren en hun mobiele applicatie voor klanten opnieuw opbouwen om een klantervaring van wereldklasse te bieden.",
+      "desc2": "We hebben samengewerkt met hun team om de productstrategie te definiëren, een samenhangend ontwerpsysteem te creëren en een hoogwaardige, realtime trackingarchitectuur te implementeren.",
+      "industryLabel": "Industrie",
+      "industryValue": "Maaltijdbezorging & Logistiek",
+      "locationLabel": "Locatie",
+      "locationValue": "Saoedi-Arabië",
+      "servicesLabel": "Diensten",
+      "servicesValue": "Mobiele App, Routeoptimalisatie, Chauffeurstracking"
+    },
+    "testimonial": {
+      "quote": "Samenwerken met dit team is een game-changer geweest voor ons bedrijf. We worstelden om onze bezorgtijden omlaag te brengen zonder concessies te doen aan de kwaliteit, en in slechts een paar maanden hebben ze onze activiteiten volledig getransformeerd. Hun diepe begrip van zowel technologie als de maaltijdbezorgingsindustrie betekende dat ze verbeteringen konden voorstellen waar we nog niet eens aan hadden gedacht. Van het vernieuwen van de gebruikerservaring van onze app tot het optimaliseren van onze backend-logistiek, elke stap werd met precisie en zorg uitgevoerd. Vandaag de dag genieten onze klanten van een snellere, soepelere bestelervaring en hebben we een meetbare toename gezien in herhaalde bestellingen en klanttevredenheid. Dit was niet zomaar een dienstverlener voor ons — het voelde alsof we een in-house innovatiepartner hadden die echt om onze groei gaf",
+      "author": "CEO, Daeem Delivery"
+    },
+    "services": {
+      "title": "Onze Diensten",
+      "subtitle": "Hoe we Daeem hebben geholpen in elke fase van de ontwikkeling.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Conceptualisatie",
+          "desc": "We brachten gebruikersreizen in kaart voor klanten, restaurants en chauffeurs om knelpunten weg te nemen."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Ontwerp",
+          "desc": "Een complete visuele revisie geoptimaliseerd voor snelle betalingen en realtime tracking op de kaart."
+        },
+        {
+          "step": "03",
+          "title": "Core Engineering",
+          "desc": "Ontwikkeling van hoogwaardige iOS- & Android-apps met native UI-snelheid via Flutter en React Native."
+        },
+        {
+          "step": "04",
+          "title": "Cloud & DevOps",
+          "desc": "Inrichting van robuuste hosting, automatische schaling en beveiligde API-gateways voor piekbelastingen."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "De Uitdaging",
+      "subtitle": "Voordat Daeem Delivery met ons ging samenwerken, kampten zij met:",
+      "points": [
+        "Trage bezorgtijden die leidden tot ontevredenheid bij klanten.",
+        "Inefficiënte routeplanning voor chauffeurs.",
+        "Een verouderde UI/UX die niet voldeed aan de verwachtingen van een moderne app."
+      ]
+    },
+    "solution": {
+      "title": "Onze Oplossing",
+      "subtitle": "Wij boden:",
+      "points": [
+        "Geoptimaliseerd bezorgalgoritme: Gemiddelde bezorgtijd met 38% verkort.",
+        "Complete UI/UX Revamp: Ontworpen voor snelheid, helderheid en interactie.",
+        "Realtime driver tracking & bestelupdates: Verhoogd klantvertrouwen."
+      ]
+    },
+    "technologies": {
+      "title": "Technologieën Die We Gebruiken"
+    }
+  },
+  "caseStudyVedguru": {
+    "category": "CASE STUDY",
+    "title": "Probleem ➔ Oplossing ➔ Impact",
+    "subtitle": "Hoe we Daeem Delivery App hebben geholpen de bezorgtijd met 38% te verkorten in 4 maanden",
+    "description": "Hoe we het toonaangevende on-demand bezorg- en logistiekplatform van Saoedi-Arabië vanaf de grond hebben opgebouwd.",
+    "stat1Value": "38%",
+    "stat1Label": "Kortere Bezorgtijd",
+    "stat2Value": "99,9%",
+    "stat2Label": "Systeembeschikbaarheid",
+    "stat3Value": "1M+",
+    "stat3Label": "Maandelijkse Leveringen",
+    "overview": {
+      "title": "Klant Overzicht",
+      "desc1": "Vedguru is een digitaal platform dat gebruikers verbindt met ervaren astrologen, spirituele gidsen en Vedische experts om gepersonaliseerde consulten en inzichten te bieden op basis van oude Indiase astrologie en spirituele wijsheid.",
+      "desc2": "Het platform stelt gebruikers in staat om live consulten te boeken, te chatten met astrologen, gepersonaliseerde horoscooplezingen te ontvangen en oplossingen te verkennen voor levensuitdagingen op het gebied van carrière, relaties, gezondheid en financiën.",
+      "desc3": "De missie van Vedguru is om authentieke Vedische kennis toegankelijk te maken voor een wereldwijd publiek door middel van moderne technologie, met behoud van de diepgang en nauwkeurigheid van traditionele praktijken.",
+      "desc4": "Toen hun gebruikersbestand snel groeide, moest Vedguru de prestaties van het platform verbeteren, de consultervaring verrijken en een schaalbaar systeem bouwen dat duizenden realtime gebruikers kan ondersteunen die tegelijkertijd met astrologen interacteren.",
+      "industryLabel": "Industrie",
+      "industryValue": "Spiritueel & Astrologie Consultatieplatform",
+      "locationLabel": "Locatie",
+      "locationValue": "India",
+      "servicesLabel": "Diensten",
+      "servicesValue": "Webplatform, Schaalbare Backend, Mobiele App"
+    },
+    "testimonial": {
+      "quote": "De samenwerking met dit team stelde ons in staat om ons platform te moderniseren met behoud van de authenticiteit van de Vedische astrologie. Naarmate Vedguru groeide, hadden we een technologiepartner nodig die ons kon helpen ons consultatiesysteem te schalen en de gebruikerservaring te verbeteren. Hun expertise hielp ons de prestaties te optimaliseren, de realtime communicatie tussen gebruikers en astrologen te verbeteren en slimmere plannings- en boekingsfuncties te introduceren. Vandaag de dag genieten onze gebruikers van een snellere en transparantere consultervaring, en onze astrologen kunnen efficiënter meer cliënten bedienen. Het voelde echt als werken met een team dat onze visie respecteerde en ons hielp traditionele wijsheid naar het digitale tijdperk te brengen.",
+      "author": "Oprichter & CEO, Vedguru"
+    },
+    "services": {
+      "title": "Onze Diensten",
+      "subtitle": "Hoe we Daeem hebben geholpen in elke fase van de ontwikkeling.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Conceptualisatie",
+          "desc": "We brachten gebruikersreizen in kaart voor klanten, restaurants en chauffeurs om knelpunten weg te nemen."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Ontwerp",
+          "desc": "Een complete visuele revisie geoptimaliseerd voor snelle betalingen en realtime tracking op de kaart."
+        },
+        {
+          "step": "03",
+          "title": "Core Engineering",
+          "desc": "Ontwikkeling van hoogwaardige iOS- & Android-apps met native UI-snelheid via Flutter en React Native."
+        },
+        {
+          "step": "04",
+          "title": "Cloud & DevOps",
+          "desc": "Inrichting van robuuste hosting, automatische schaling en beveiligde API-gateways voor piekbelastingen."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "De Uitdaging",
+      "subtitle": "Voordat Daeem Delivery met ons ging samenwerken, kampten zij met:",
+      "points": [
+        "Trage bezorgtijden die leidden tot ontevredenheid bij klanten.",
+        "Inefficiënte routeplanning voor chauffeurs.",
+        "Een verouderde UI/UX die niet voldeed aan de verwachtingen van een moderne app."
+      ]
+    },
+    "solution": {
+      "title": "Onze Oplossing",
+      "subtitle": "Wij boden:",
+      "points": [
+        "Geoptimaliseerd bezorgalgoritme: Gemiddelde bezorgtijd met 38% verkort.",
+        "Complete UI/UX Revamp: Ontworpen voor snelheid, helderheid en interactie.",
+        "Realtime driver tracking & bestelupdates: Verhoogd klantvertrouwen."
+      ]
+    },
+    "technologies": {
+      "title": "Technologieën Die We Gebruiken"
+    }
+  },
+  "caseStudyGalinia": {
+    "category": "CASE STUDY",
+    "title": "Probleem ➔ Oplossing ➔ Impact",
+    "subtitle": "Hoe we MentalWell hebben geholpen hun platform te schalen en de gebruikersbetrokkenheid met 65% te verbeteren",
+    "description": "Hoe we een toonaangevende digitale metgezel voor mentaal welzijn hebben ontworpen en gebouwd die gebruikers verbindt met essentiële emotionele ondersteuning.",
+    "stat1Value": "65%",
+    "stat1Label": "Toename in Dagelijkse Gebruikers",
+    "stat2Value": "99,9%",
+    "stat2Label": "Systeembeschikbaarheid & Privacy",
+    "stat3Value": "500k+",
+    "stat3Label": "Sessies Gehost",
+    "overview": {
+      "title": "Klant Overzicht",
+      "desc1": "MentalWell is een innovatief digitaal platform gericht op het toegankelijk, boeiend en gepersonaliseerd maken van hulpmiddelen voor de geestelijke gezondheidszorg. Ontworpen voor moderne gebruikers die op zoek zijn naar emotionele balans, verbindt het individuen met gecertificeerde therapeuten, geleide meditaties en tools voor stemmingsregistratie.",
+      "desc2": "De applicatie stelt gebruikers in staat controle te nemen over hun mentaal welzijn door AI-gestuurde inzichten in hun emotionele patronen, veilige videocounselingsessies en een ondersteunend communityforum voor gedeelde ervaringen te bieden.",
+      "desc3": "De missie van MentalWell is om het stigma rond geestelijke gezondheidszorg te doorbreken en een veilige, vertrouwelijke omgeving te bieden waar gebruikers altijd en overal toegang hebben tot professionele ondersteuning.",
+      "desc4": "Toen het bewustzijn van geestelijke gezondheidsproblemen wereldwijd toenam, stond MentalWell voor de uitdaging om hun platform op te schalen voor duizenden nieuwe dagelijks actieve gebruikers en tegelijkertijd absolute gegevensprivacy en een wrijvingsloze gebruikerservaring te garanderen.",
+      "industryLabel": "Industrie",
+      "industryValue": "Geestelijke Gezondheid & Welzijn",
+      "locationLabel": "Locatie",
+      "locationValue": "Verenigd Koninkrijk",
+      "servicesLabel": "Diensten",
+      "servicesValue": "Mobiele App, Telehealth Architectuur, AI Tracking"
+    },
+    "testimonial": {
+      "quote": "Samenwerken met dit team was een cruciaal moment voor MentalWell. We worstelden met het schalen van onze infrastructuur en moesten tegelijkertijd voldoen aan de strenge privacy- en beveiligingsnormen binnen telehealth. Hun technische uitmuntendheid heeft onze backend volledig getransformeerd, terwijl hun ontwerpteam een ongelooflijk rustgevende, intuïtieve gebruikerservaring heeft gecreëerd. Sinds de herlancering zijn onze dagelijks actieve gebruikers omhooggeschoten en is de feedback van onze community overweldigend positief. Ze hebben niet alleen een app gebouwd; ze hebben ons geholpen een toevluchtsoord voor mentale gezondheid te bouwen.",
+      "author": "CEO, MentalWell"
+    },
+    "services": {
+      "title": "Onze Diensten",
+      "subtitle": "Hoe we Daeem hebben geholpen in elke fase van de ontwikkeling.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Conceptualisatie",
+          "desc": "We brachten gebruikersreizen in kaart voor klanten, restaurants en chauffeurs om knelpunten weg te nemen."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Ontwerp",
+          "desc": "Een complete visuele revisie geoptimaliseerd voor snelle betalingen en realtime tracking op de kaart."
+        },
+        {
+          "step": "03",
+          "title": "Core Engineering",
+          "desc": "Ontwikkeling van hoogwaardige iOS- & Android-apps met native UI-snelheid via Flutter en React Native."
+        },
+        {
+          "step": "04",
+          "title": "Cloud & DevOps",
+          "desc": "Inrichting van robuuste hosting, automatische schaling en beveiligde API-gateways voor piekbelastingen."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "De Uitdaging",
+      "subtitle": "Voordat Daeem Delivery met ons ging samenwerken, kampten zij met:",
+      "points": [
+        "Trage bezorgtijden die leidden tot ontevredenheid bij klanten.",
+        "Inefficiënte routeplanning voor chauffeurs.",
+        "Een verouderde UI/UX die niet voldeed aan de verwachtingen van een moderne app."
+      ]
+    },
+    "solution": {
+      "title": "Onze Oplossing",
+      "subtitle": "Wij boden:",
+      "points": [
+        "Geoptimaliseerd bezorgalgoritme: Gemiddelde bezorgtijd met 38% verkort.",
+        "Complete UI/UX Revamp: Ontworpen voor snelheid, helderheid en interactie.",
+        "Realtime driver tracking & bestelupdates: Verhoogd klantvertrouwen."
+      ]
+    },
+    "technologies": {
+      "title": "Technologieën Die We Gebruiken"
+    }
+  },
+  "caseStudyEva": {
+    "category": "CASE STUDY",
+    "title": "Probleem ➔ Oplossing ➔ Impact",
+    "subtitle": "Hoe we Eva Social hebben geholpen een schaalbaar netwerkplatform te bouwen en de betrokkenheid met 150% te vergroten",
+    "description": "Hoe we een uiterst boeiend, multimediarijk sociaal netwerk hebben gebouwd voor de groei van gemeenschappen.",
+    "stat1Value": "150%",
+    "stat1Label": "Toename in Betrokkenheid",
+    "stat2Value": "99,99%",
+    "stat2Label": "Server Uptime",
+    "stat3Value": "2M+",
+    "stat3Label": "Actieve Gebruikers",
+    "overview": {
+      "title": "Klant Overzicht",
+      "desc1": "Eva Social is een interactief sociaal netwerkplatform van de volgende generatie, ontworpen om mensen te verbinden door middel van gedeelde passies en meeslepende digitale ervaringen. Het platform stelt makers, beïnvloeders en alledaagse gebruikers in staat om levendige, authentieke gemeenschappen op te bouwen.",
+      "desc2": "In tegenstelling tot traditionele netwerken, richt Eva Social zich op integratie van rijke media, met live audiokamers, sterk aanpasbare gebruikersruimtes en door AI aangedreven contentontdekking die zorgt voor een gifvrije en boeiende omgeving.",
+      "desc3": "De missie van Eva Social is om echte menselijke connecties in een digitale wereld te bevorderen door prioriteit te geven aan gebruikersveiligheid, organische groei en intuïtief ontwerp boven algoritmische manipulatie.",
+      "desc4": "Toen het platform virale tractie kreeg, verschoof de belangrijkste uitdaging naar het bouwen van een zeer schaalbare backend-architectuur die in staat is om realtime multimediastreams, instant messaging en een snelgroeiend wereldwijd gebruikersbestand te verwerken zonder in te boeten aan snelheid.",
+      "industryLabel": "Industrie",
+      "industryValue": "Sociale Media & Netwerken",
+      "locationLabel": "Locatie",
+      "locationValue": "Verenigde Staten",
+      "servicesLabel": "Diensten",
+      "servicesValue": "Webplatform, Mobiele App, Real-Time Architectuur"
+    },
+    "testimonial": {
+      "quote": "Samenwerken met dit team was precies wat Eva Social nodig had om door te breken in het drukke socialemediaklimaat. We hadden een briljant concept, maar we misten de technische vuurkracht om massale gelijktijdige live audiostreams en realtime feeds te verwerken. Ze hebben niet alleen een ongelooflijk robuuste backend ontwikkeld die ons piekverkeer moeiteloos aan kan, maar ze hebben ook onze UI/UX verfijnd om de app ontzettend pakkend te maken. Sinds onze lancering heeft het behoud van gebruikers alle verwachtingen overtroffen. Het zijn ware partners die de nuances van het bouwen van een community-first digitaal product echt begrijpen.",
+      "author": "Mede-oprichter, Eva Social"
+    },
+    "services": {
+      "title": "Onze Diensten",
+      "subtitle": "Hoe we Daeem hebben geholpen in elke fase van de ontwikkeling.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Conceptualisatie",
+          "desc": "We brachten gebruikersreizen in kaart voor klanten, restaurants en chauffeurs om knelpunten weg te nemen."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Ontwerp",
+          "desc": "Een complete visuele revisie geoptimaliseerd voor snelle betalingen en realtime tracking op de kaart."
+        },
+        {
+          "step": "03",
+          "title": "Core Engineering",
+          "desc": "Ontwikkeling van hoogwaardige iOS- & Android-apps met native UI-snelheid via Flutter en React Native."
+        },
+        {
+          "step": "04",
+          "title": "Cloud & DevOps",
+          "desc": "Inrichting van robuuste hosting, automatische schaling en beveiligde API-gateways voor piekbelastingen."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "De Uitdaging",
+      "subtitle": "Voordat Daeem Delivery met ons ging samenwerken, kampten zij met:",
+      "points": [
+        "Trage bezorgtijden die leidden tot ontevredenheid bij klanten.",
+        "Inefficiënte routeplanning voor chauffeurs.",
+        "Een verouderde UI/UX die niet voldeed aan de verwachtingen van een moderne app."
+      ]
+    },
+    "solution": {
+      "title": "Onze Oplossing",
+      "subtitle": "Wij boden:",
+      "points": [
+        "Geoptimaliseerd bezorgalgoritme: Gemiddelde bezorgtijd met 38% verkort.",
+        "Complete UI/UX Revamp: Ontworpen voor snelheid, helderheid en interactie.",
+        "Realtime driver tracking & bestelupdates: Verhoogd klantvertrouwen."
+      ]
+    },
+    "technologies": {
+      "title": "Technologieën Die We Gebruiken"
+    }
+  },
+  "caseStudyArtune": {
+    "category": "CASE STUDY",
+    "title": "Probleem ➔ Oplossing ➔ Impact",
+    "subtitle": "Hoe We Artune Hebben Geholpen Een Schaalbaar Muziekontdekkingsplatform Te Bouwen Met Moderne Webtechnologieën",
+    "description": "Artune herdefinieert de online kunstmarkt door exclusieve posters in beperkte oplage aan te bieden met ongeëvenaarde diepte en visuele impact.",
+    "stat1Value": "300%",
+    "stat1Label": "Stijging in Verkoop",
+    "stat2Value": "50K+",
+    "stat2Label": "Actieve Verzamelaars",
+    "stat3Value": "4.9",
+    "stat3Label": "Gebruikerswaardering",
+    "overview": {
+      "title": "Klant Overzicht",
+      "desc1": "Artune is een disruptieve e-commerce startup gericht op het leveren van premium posters met hoge diepte aan kunstliefhebbers wereldwijd. Ze hadden een platform nodig dat de ingewikkelde details van hun fysieke producten in een digitale ruimte kon laten zien.",
+      "desc2": "We hebben een op maat gemaakte winkelomgeving ontworpen en ontwikkeld met een zeer visuele productontdekkingservaring, naadloze checkout en een architectuur die grote drukte bij limited edition drops aankan.",
+      "industryLabel": "Industrie",
+      "industryValue": "E-Commerce & Digitale Kunst",
+      "locationLabel": "Locatie",
+      "locationValue": "Wereldwijd",
+      "servicesLabel": "Diensten",
+      "servicesValue": "Web Platform, UI/UX Design, E-Commerce Architectuur"
+    },
+    "testimonial": {
+      "quote": "Dit team heeft niet zomaar een winkel gebouwd; ze hebben de essentie van onze kunst vastgelegd. Onze posters draaien allemaal om diepte en visuele slagkracht, en de website weerspiegelt precies dat. Sinds de lancering zijn onze conversiepercentages verdrievoudigd en is onze community dol op de nieuwe winkelervaring.",
+      "author": "Oprichter, Artune"
+    },
+    "services": {
+      "title": "Onze Diensten",
+      "subtitle": "Hoe we de visie van Artune tot leven brachten.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Visuele Strategie",
+          "desc": "Een donker, meeslepend UI-thema gedefinieerd om de levendige posterkleuren te laten opvallen."
+        },
+        {
+          "step": "02",
+          "title": "Storefront Engineering",
+          "desc": "Een razendsnelle Next.js frontend gebouwd met naadloze overgangen en soepel scrollen."
+        },
+        {
+          "step": "03",
+          "title": "Backend Architectuur",
+          "desc": "Een schaalbaar voorraadsysteem geïmplementeerd om veelgevraagde productreleases te beheren."
+        },
+        {
+          "step": "04",
+          "title": "Optimalisatie",
+          "desc": "Geavanceerde strategieën voor het laden van afbeeldingen geïntegreerd voor scherpe beelden zonder verlies van snelheid."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "De Uitdaging",
+      "subtitle": "Voor de vernieuwing kampte Artune met:",
+      "points": [
+        "Een generieke winkelomgeving die de productkwaliteit niet benadrukte.",
+        "Trage laadtijden door ongeoptimaliseerde beelden in hoge resolutie.",
+        "Servercrashes tijdens populaire limited-edition poster releases."
+      ]
+    },
+    "solution": {
+      "title": "Onze Oplossing",
+      "subtitle": "Wij boden:",
+      "points": [
+        "Een zeer op maat gemaakte, meeslepende UI die de kunst centraal stelt.",
+        "Geoptimaliseerde afbeeldingslevering die zorgt voor directe laadtijden.",
+        "Een robuuste serverloze backend die plotselinge verkeerspieken moeiteloos aankan."
+      ]
+    },
+    "technologies": {
+      "title": "Technologieën Die We Gebruiken"
+    }
+  },
+  "caseStudyDas": {
+    "category": "CASE STUDY",
+    "title": "Digitale Couture",
+    "subtitle": "Hoe We Een Prachtige E-Commerce Ervaring Bouwden Voor DAS Timeless Luxury Abayas",
+    "description": "Hoe we een digitaal meesterwerk ontwierpen en bouwden dat de ziel van high-fashion luxe voor DAS vastlegt.",
+    "stat1Value": "200%",
+    "stat1Label": "Stijging in Online Verkoop",
+    "stat2Value": "0.5s",
+    "stat2Label": "Pagina Laadtijd",
+    "stat3Value": "50K+",
+    "stat3Label": "Wereldwijde Klanten",
+    "overview": {
+      "title": "Klant Overzicht",
+      "desc1": "DAS is een vooraanstaand luxe modemerk dat gespecialiseerd is in tijdloze abaya's. Ze wilden hun fysieke boetiekervaring vertalen naar een elegante, hoogwaardige digitale etalage.",
+      "desc2": "We werkten samen met hun creatieve team om een visueel prachtig platform te ontwerpen dat hun 'Digital Couture' visie weerspiegelt, waarbij naadloze animaties werden gecombineerd met een intuïtieve, luxe gebruikersreis.",
+      "industryLabel": "Industrie",
+      "industryValue": "Luxe Mode & E-Commerce",
+      "locationLabel": "Locatie",
+      "locationValue": "Wereldwijd",
+      "servicesLabel": "Diensten",
+      "servicesValue": "Web Platform, UI/UX Design, E-Commerce Architectuur"
+    },
+    "testimonial": {
+      "quote": "Samenwerken met dit team is een transformerende reis geweest voor ons merk. In de wereld van luxe doet elk detail ertoe — van de steek op een kledingstuk tot de pixel op een scherm. Ze hebben niet zomaar een platform gebouwd; ze hebben een digitaal meesterwerk gecreëerd dat de ziel van DAS vastlegt. Hun vermogen om onze visie van \"Digital Couture\" te vertalen naar een hoogwaardige, visueel verbluffende realiteit heeft een nieuwe maatstaf in de industrie gezet. Van de naadloze animaties tot de intuïtieve gebruikersreis, elk element weerspiegelt de luxe en precisie waar we voor staan. Dit partnerschap heeft niet alleen ons merk naar een hoger niveau getild, maar heeft ook echt geherdefinieerd hoe onze klanten high fashion in het digitale tijdperk ervaren.",
+      "author": "Oprichter & Creatief Directeur, DAS"
+    },
+    "services": {
+      "title": "Onze Diensten",
+      "subtitle": "Hoe we de DAS luxe-ervaring online brachten.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Visuele Strategie",
+          "desc": "Een minimalistisch, contrastrijk UI-thema gedefinieerd om de kledingstukken voor zichzelf te laten spreken."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Ontwerp",
+          "desc": "Een complete visuele vernieuwing geoptimaliseerd voor elegant scrollen en naadloze overgangen."
+        },
+        {
+          "step": "03",
+          "title": "Storefront Engineering",
+          "desc": "Een razendsnelle Next.js frontend ontwikkeld met natuurlijk aanvoelende animaties via Framer Motion."
+        },
+        {
+          "step": "04",
+          "title": "Backend Architectuur",
+          "desc": "Een schaalbaar voorraadsysteem en op maat gemaakt afrekensysteem geïmplementeerd voor high-end klanten."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "De Uitdaging",
+      "subtitle": "Voordat we gingen samenwerken, had DAS te maken met:",
+      "points": [
+        "Een verouderde e-commerce ervaring die hun luxe merkpositionering niet weerspiegelde.",
+        "Trage laadtijden die high-end klanten frustreerden.",
+        "Een gebrek aan naadloze, boeiende animaties om de ingewikkelde details van de abaya's te laten zien."
+      ]
+    },
+    "solution": {
+      "title": "Onze Oplossing",
+      "subtitle": "Wij boden:",
+      "points": [
+        "Een complete UI/UX-vernieuwing gericht op minimalistische elegantie en \"Digital Couture\".",
+        "Een geoptimaliseerd Next.js-platform met onmiddellijke paginaladingen en boterzachte overgangen.",
+        "Een op maat gemaakte, hoogwaardige betaalervaring ontworpen voor een naadloze luxereis."
+      ]
+    },
+    "technologies": {
+      "title": "Technologieën Die We Gebruiken"
+    }
+  },
+  "getAQuote": {
+    "leftTitle1": "Laten We Samen Iets",
+    "leftTitle2": "Buitengewoons Bouwen",
+    "description": "Of u nu een project in gedachten heeft, deskundig advies nodig heeft, of gewoon wilt ontdekken hoe onze oplossingen uw bedrijf kunnen helpen groeien, wij zijn er om te luisteren en u bij elke stap te begeleiden.",
+    "phone": "06 47070940",
+    "email": "info@instasolution.nl",
+    "joinTeam": "Wilt u zich bij ons getalenteerde team voegen?",
+    "joinBtn": "Doe Nu Mee",
+    "formTitle1": "Start Uw Project",
+    "formTitle2": "Met Ons",
+    "placeholderName": "Volledige Naam",
+    "placeholderEmail": "E-mailadres",
+    "placeholderBudget": "Geschat Budget",
+    "placeholderPhone": "Telefoonnummer",
+    "placeholderMessage": "Uw Bericht",
+    "trust1": "Krijg een persoonlijk antwoord in minder dan 3 uur.",
+    "trust2": "Uw concept blijft vertrouwelijk — NDA op aanvraag beschikbaar.",
+    "submitBtn": "Mijn Aanvraag Verzenden"
+  },
+  "company": {
+    "title": "Instasolution - Mensen. Product. Vooruitgang.",
+    "desc1_part1": "Gevestigd in ",
+    "desc1_highlight1": "Hoofddorp, Nederland",
+    "desc1_part2": ", werken we met teams wereldwijd om digitale producten te bouwen die standhouden in de echte wereld. Als een ",
+    "desc1_highlight2": "wereldwijd softwareontwikkelingsbedrijf",
+    "desc1_part3": ", combineren we mobiele app-ontwikkeling, webontwikkeling, UI/UX-ontwerp en cloudoplossingen om u te helpen sneller te lanceren en te schalen zonder chaos.",
+    "desc2_part1": "Waarom klanten meestal naar ons toe komen is simpel: ",
+    "desc2_highlight1": "duidelijkheid en betrouwbaarheid",
+    "desc2_part2": ". Heldere scope, strakke builds, eerlijke updates en ondersteuning die niet verdwijnt na live-gang, of u nu aan het einde van de straat bent of in een andere tijdzone.",
+    "ctaBtn": "Vraag een gratis offerte aan"
+  },
+  "culture": {
+    "title": "Bij Instasolution is onze cultuur gebouwd op een paar simpele waarden.",
+    "p1": "Wanneer u een ontwikkelingspartner inhuurt, huurt u niet alleen code in. U huurt in hoe een team denkt, communiceert en omgaat met druk wanneer de scope verandert of deadlines krap worden. Daarom houden we onze cultuur eenvoudig en praktisch.",
+    "p2": "We werken met eigenaarschap, spreken met duidelijkheid en houden het proces transparant, zodat u nooit hoeft te raden wat er gebeurt. Het resultaat is waar klanten echt om geven: minder verrassingen, snellere beslissingen en producten die met vertrouwen worden gelanceerd.",
+    "faqs": [
+      {
+        "q": "Welke diensten voor de ontwikkeling van mobiele apps biedt u aan?",
+        "a": "We bieden end-to-end mobiele app-ontwikkelingsdiensten, inclusief native iOS- en Android-ontwikkeling, cross-platform oplossingen met React Native en Flutter, en naadloze backend-integratie."
+      },
+      {
+        "q": "Welke diensten voor softwareontwikkeling biedt u aan?",
+        "a": "Onze softwareontwikkelingsdiensten omvatten op maat gemaakte bedrijfssoftware, webapplicaties, cloudarchitecturen en schaalbare SaaS-platforms die zijn ontworpen om aan uw specifieke zakelijke behoeften te voldoen."
+      },
+      {
+        "q": "Hoe houdt u mijn app en gegevens veilig?",
+        "a": "We geven prioriteit aan beveiliging in elke fase. We implementeren industriestandaard encryptie, veilige authenticatiemethoden, regelmatige kwetsbaarheidsbeoordelingen en volgen strikt de regelgeving inzake gegevensbescherming."
+      },
+      {
+        "q": "Biedt u diensten voor app-onderhoud en -ondersteuning aan?",
+        "a": "Ja, we bieden continu onderhoud en ondersteuning na de lancering om ervoor te zorgen dat uw app veilig blijft, up-to-date is met de nieuwste OS-versies en optimaal presteert."
+      },
+      {
+        "q": "Ontwikkelt u software voor zowel mobiele als webplatforms?",
+        "a": "Absoluut. We bouwen samenhangende digitale ervaringen over zowel mobiele als webplatforms, wat zorgt voor een uniforme architectuur en een consistente gebruikerservaring op alle apparaten."
+      },
+      {
+        "q": "Hoe lang duurt het om een volledig functionerende app te maken?",
+        "a": "De tijdlijn varieert op basis van complexiteit en functionaliteit. Een basis-MVP kan 2-3 maanden duren, terwijl een grootschalige enterprise-applicatie meer dan 6 maanden in beslag kan nemen. We bieden duidelijke tijdlijnen tijdens onze initiële scopingfase."
+      }
+    ]
+  },
+  "teamReviews": {
+    "title": "Hoor Van Onze Teamleden",
+    "subtitle": "Hoor direct van de mensen die elke dag met ons bouwen. Hun verhalen weerspiegelen de cultuur waar we trots op zijn.",
+    "leftCard": {
+      "title": "Wat onze mensen zeggen over werken bij Instasolution",
+      "count": "270+",
+      "label": "Teamleden",
+      "btn": "Bekijk Meer Beoordelingen"
+    },
+    "reviews": [
+      {
+        "name": "Emma Rodriguez",
+        "location": "VS",
+        "text": "Werken bij Instasolution is geweldig. De cultuur van eigenaarschap en heldere communicatie maakt het opleveren van complexe mobiele apps een lonende ervaring.",
+        "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+      },
+      {
+        "name": "James Whitaker",
+        "location": "VK",
+        "text": "De samenwerkingsomgeving hier is ongeëvenaard. We bouwen krachtige schaalbare platforms, en de leiding zorgt ervoor dat we alle steun krijgen die we nodig hebben.",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      {
+        "name": "Sarah Chen",
+        "location": "Canada",
+        "text": "Ik ben begonnen als UI/UX-ontwerper en voelde me direct gewaardeerd. De focus op transparantie betekent dat we altijd producten lanceren waar we trots op zijn.",
+        "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+      },
+      {
+        "name": "David Müller",
+        "location": "Duitsland",
+        "text": "De toewijding van Instasolution aan strakke builds en eerlijke updates is niet alleen voor klanten—het is hoe we intern met elkaar omgaan. Fantastische plek om te groeien.",
+        "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+      }
+    ]
+  },
+  "companyCTA": {
+    "joinTitle": "Wil je deel uitmaken van ons verhaal?",
+    "joinDesc": "We zijn altijd op zoek naar nieuwsgierige, bescheiden en ambitieuze mensen om ons team te versterken. Bekijk openstaande vacatures of neem contact op om een gesprek te beginnen.",
+    "joinBtn": "Bekijk Openstaande Vacatures",
+    "newsTitle": "Blijf geïnspireerd door wat we bouwen.",
+    "newsDesc": "Ontvang af en toe updates over nieuwe case studies, productinzichten en het leven bij Instasolution.",
+    "placeholder": "Voer uw e-mailadres in",
+    "newsBtn": "Start Uw Project",
+    "newsDisclaimer": "Geen spam. Alleen doordachte verhalen en inzichten."
+  },
+  "whyContactUs": {
+    "title": "Waarom Contact Met Ons Opnemen",
+    "card1Title": "Snelle Reactie",
+    "card1Desc": "We nemen binnen 24 uur contact met u op.",
+    "card2Title": "Deskundig Advies",
+    "card2Desc": "Profiteer van onze jarenlange ervaring in de sector.",
+    "card3Title": "Wereldwijde Ervaring",
+    "card3Desc": "We hebben met succes projecten over de hele wereld opgeleverd.",
+    "card4Title": "Bewezen Resultaten",
+    "card4Desc": "Ons portfolio spreekt voor zich met hoge succespercentages."
+  },
+  "aiHero": {
+    "title": "AI-oplossingen die lanceren",
+    "titleHighlight": "Niet Alleen Demo's",
+    "desc": "We integreren AI in uw web- en mobiele producten om werk te automatiseren, beslissingen te verbeteren en slimmere klantervaringen te leveren.",
+    "ctaBtn": "Plan een AI Strategiegesprek",
+    "feature1": "NDA klaar",
+    "feature2": "Veilige implementaties",
+    "feature3": "Snelle levering"
+  },
+  "aiOutcomes": {
+    "title": "Bedrijfsresultaten",
+    "card1Title": "2-4 weken",
+    "card1Desc": "Prototype klaar",
+    "card2Title": "6-10 weken",
+    "card2Desc": "Productie-uitrol",
+    "card3Title": "30-60%",
+    "card3Desc": "Tijdbesparing (afhankelijk van use-case)",
+    "card4Title": "Veiligheid voorop",
+    "card4Desc": "RBAC, auditlogs, privé-implementatie"
+  },
+  "aiDeliver": {
+    "title": "Wat we leveren met AI",
+    "explore": "Ontdekken",
+    "cards": [
+      {
+        "title": "AI voor Bedrijfsactiviteiten",
+        "desc": "Stroomlijn interne workflows en automatiseer repetitieve taken met intelligente automatisering.",
+        "bullets": ["Ondersteuning automatisering", "Documentverwerking", "Workflow automatisering", "Interne chatbots"]
+      },
+      {
+        "title": "AI Binnen Jouw App / Website",
+        "desc": "Integreer intelligente functies rechtstreeks in jouw klantgerichte producten.",
+        "bullets": ["RAG zoeken", "Aanbevelingen", "Personalisatie", "Chat UI"]
+      },
+      {
+        "title": "AI Strategie & Data Gereedheid",
+        "desc": "Plan jouw AI-reis met deskundige begeleiding en bereid jouw data-infrastructuur voor.",
+        "bullets": ["Roadmap creatie", "Data audit", "Architectuur ontwerp", "Build vs buy analyse"]
+      }
+    ]
+  },
+  "aiUseCases": {
+    "title": "AI Use Cases per Sector",
+    "industries": [
+      {
+        "id": "healthcare",
+        "name": "Gezondheidszorg",
+        "cases": [
+          {
+            "icon": "chat",
+            "title": "AI Ondersteuningsagent",
+            "desc": "24/7 patiëntenondersteuning met intelligente triage en afspraakplanning.",
+            "tags": ["RAG", "Automatisering"]
+          },
+          {
+            "icon": "document",
+            "title": "DocAI Extractie",
+            "desc": "Medische dossiers extraheren en verwerken met hoge nauwkeurigheid.",
+            "tags": ["Automatisering", "NLP"]
+          },
+          {
+            "icon": "chart",
+            "title": "Voorspellende Inzichten",
+            "desc": "Patiëntresultaten voorspellen en toewijzing van middelen optimaliseren.",
+            "tags": ["Analytics", "ML"]
+          },
+          {
+            "icon": "sparkles",
+            "title": "Personalisatie Engine",
+            "desc": "Behandelplannen en patiëntcommunicatie op maat maken.",
+            "tags": ["Personalisatie", "RAG"]
+          }
+        ]
+      },
+      {
+        "id": "ecommerce",
+        "name": "E-commerce",
+        "cases": [
+          {
+            "icon": "search",
+            "title": "Semantisch Zoeken",
+            "desc": "Help klanten precies te vinden wat ze zoeken met natuurlijke taal.",
+            "tags": ["NLP", "Zoeken"]
+          },
+          {
+            "icon": "sparkles",
+            "title": "Slimme Aanbevelingen",
+            "desc": "Verhoog de verkoop met AI-gestuurde, sterk gepersonaliseerde productsuggesties.",
+            "tags": ["ML", "Personalisatie"]
+          },
+          {
+            "icon": "chart",
+            "title": "Voorraadprognose",
+            "desc": "Voorspel vraagtrends en optimaliseer automatisch de voorraadniveaus.",
+            "tags": ["Analytics", "Automatisering"]
+          },
+          {
+            "icon": "chat",
+            "title": "Virtuele Winkelassistent",
+            "desc": "Begeleid gebruikers automatisch door hun aankooptraject.",
+            "tags": ["Chatbot", "RAG"]
+          }
+        ]
+      },
+      {
+        "id": "logistics",
+        "name": "Logistiek",
+        "cases": [
+          {
+            "icon": "chart",
+            "title": "Route-optimalisatie",
+            "desc": "Bereken dynamisch de snelste routes, wat brandstof en tijd bespaart.",
+            "tags": ["ML", "Analytics"]
+          },
+          {
+            "icon": "document",
+            "title": "Geautomatiseerde Verwerking",
+            "desc": "Verwerk vrachtbrieven en douanedocumentatie direct.",
+            "tags": ["OCR", "NLP"]
+          },
+          {
+            "icon": "sparkles",
+            "title": "Vraagvoorspelling",
+            "desc": "Voorspel verzendvolumes om middelen efficiënt toe te wijzen.",
+            "tags": ["Voorspellend", "ML"]
+          },
+          {
+            "icon": "chat",
+            "title": "Vloot Tracking Bot",
+            "desc": "Laat klanten zendingen volgen via natuurlijke conversaties.",
+            "tags": ["Chatbot", "Automatisering"]
+          }
+        ]
+      },
+      {
+        "id": "realestate",
+        "name": "Vastgoed",
+        "cases": [
+          {
+            "icon": "sparkles",
+            "title": "Woning Matching",
+            "desc": "Koppel kopers aan hun droomhuis met behulp van AI-voorkeuren.",
+            "tags": ["Personalisatie", "ML"]
+          },
+          {
+            "icon": "document",
+            "title": "Huurcontract Abstractie",
+            "desc": "Extraheer automatisch belangrijke voorwaarden uit complexe huurcontracten.",
+            "tags": ["NLP", "Automatisering"]
+          },
+          {
+            "icon": "chart",
+            "title": "Marktwaardering",
+            "desc": "Voorspel de waarde van onroerend goed op basis van historische en realtime data.",
+            "tags": ["Analytics", "Voorspellend"]
+          },
+          {
+            "icon": "chat",
+            "title": "Virtuele Makelaar",
+            "desc": "Beantwoord vragen over woningen en plan 24/7 bezichtigingen.",
+            "tags": ["Chatbot", "RAG"]
+          }
+        ]
+      },
+      {
+        "id": "fintech",
+        "name": "Fintech",
+        "cases": [
+          {
+            "icon": "shield",
+            "title": "Fraudedetectie",
+            "desc": "Identificeer verdachte transacties in realtime met hoge nauwkeurigheid.",
+            "tags": ["ML", "Beveiliging"]
+          },
+          {
+            "icon": "document",
+            "title": "Geautomatiseerde KYC/AML",
+            "desc": "Versnel de onboarding van klanten door documentverificatie te automatiseren.",
+            "tags": ["OCR", "Automatisering"]
+          },
+          {
+            "icon": "chart",
+            "title": "Credit Scoring",
+            "desc": "Gebruik alternatieve databronnen voor een nauwkeurigere risicobeoordeling.",
+            "tags": ["Analytics", "ML"]
+          },
+          {
+            "icon": "chat",
+            "title": "Financieel Adviseur Bot",
+            "desc": "Bied gepersonaliseerde financiële inzichten en budgetteringsadvies.",
+            "tags": ["Personalisatie", "NLP"]
+          }
+        ]
+      }
+    ]
+  },
+  "aiHowWeDeliver": {
+    "title": "Hoe We AI Leveren",
+    "subtitle": "Een in de praktijk bewezen proces van ontdekking tot productie.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Ontdekking & KPI's",
+        "desc": "Definieer doelen, successtatistieken en datavereisten."
+      },
+      {
+        "num": "02",
+        "title": "Data + Beveiligingsplan",
+        "desc": "Controleer de datagereedheid en stel beveiligingsprotocollen vast."
+      },
+      {
+        "num": "03",
+        "title": "Prototype met Echte Data",
+        "desc": "Bouw een werkende proof-of-concept met uw eigen data."
+      },
+      {
+        "num": "04",
+        "title": "Bouwen + Integreren",
+        "desc": "Ontwikkel productieklare AI en integreer deze in uw product."
+      },
+      {
+        "num": "05",
+        "title": "Monitoren + Optimaliseren",
+        "desc": "Continue monitoring, evaluatie en verbetering."
+      }
+    ]
+  },
+  "aiAccelerators": {
+    "title": "AI Versnellers om Sneller te Leveren",
+    "subtitle": "Vooraf gebouwde componenten om uw AI-implementatie te versnellen",
+    "stacks": [
+      {
+        "category": "LLMS",
+        "items": ["OpenAI", "Azure OpenAI", "Anthropic", "Gemini"]
+      },
+      {
+        "category": "VECTOR DB",
+        "items": ["Pinecone", "pgvector", "Weaviate", "Qdrant"]
+      },
+      {
+        "category": "BACKEND",
+        "items": ["Node.js", "Python", "FastAPI", "Next.js"]
+      },
+      {
+        "category": "CLOUD",
+        "items": ["AWS", "Azure", "GCP", "Vercel"]
+      },
+      {
+        "category": "BEVEILIGING",
+        "items": ["RBAC", "PII-maskering", "Auditlogs", "SOC 2"]
+      }
+    ]
+  },
+  "aiFaq": {
+    "title": "Veelgestelde Vragen",
+    "subtitle": "Alles wat u moet weten over onze AI-oplossingen",
+    "faqs": [
+      {
+        "q": "Welke gegevens heeft u nodig om te beginnen?",
+        "a": "We hebben doorgaans toegang nodig tot relevante datasets, bedrijfsdoelstellingen, succesmetrieken en eventuele bestaande systeemdocumentatie om uw AI-oplossing goed te kunnen plannen."
+      },
+      {
+        "q": "Kunt u AI integreren in onze bestaande apps?",
+        "a": "Absoluut. We zijn gespecialiseerd in het integreren van AI-mogelijkheden in bestaande platformen via API's, SDK's en maatwerk middleware — zonder dat u uw volledige stack opnieuw hoeft te bouwen."
+      },
+      {
+        "q": "Hoe gaat u om met AI-nauwkeurigheid en hallucinaties?",
+        "a": "We gebruiken een combinatie van retrieval-augmented generation (RAG), fine-tuning, betrouwbaarheidsscores en menselijke validatie om fouten te minimaliseren en uitvoer te verankeren in geverifieerde gegevens."
+      },
+      {
+        "q": "Biedt u privé-implementatieopties aan?",
+        "a": "Ja. We ondersteunen volledig private on-premise implementaties, private cloudomgevingen en air-gapped setups voor organisaties met strenge vereisten op het gebied van datasouvereiniteit of compliance."
+      },
+      {
+        "q": "Wat is de typische doorlooptijd van een AI-project?",
+        "a": "Een gerichte MVP duurt doorgaans 6–10 weken. Enterprise-schaalprojecten met diepe integraties duren meestal 3–6 maanden, afhankelijk van de complexiteit, databeschikbaarheid en stakeholderparticipatie."
+      },
+      {
+        "q": "Welke ondersteuning biedt u na de lancering?",
+        "a": "We bieden getrapte post-launch ondersteuningsplannen aan, inclusief 24/7-monitoring, hercycli voor modeltraining, prestatiereviews en toegewijd technisch support om uw AI-oplossing optimaal te laten presteren."
+      }
+    ]
+  },
+  "aiContactCTA": {
+    "title": "Klaar om AI toe te voegen aan",
+    "titleHighlight": "Uw Product?",
+    "desc": "Transformeer uw bedrijf met intelligente automatisering en slimmere klantervaringen.",
+    "bullets": [
+      "Snellere ondersteuning",
+      "Geautomatiseerde documenten",
+      "Slimmer zoeken & inzichten",
+      "Veilige integratie"
+    ],
+    "replyNote": "We reageren binnen 24 uur",
+    "form": {
+      "nameLbl": "Naam",
+      "namePlh": "Uw naam",
+      "emailLbl": "E-mail",
+      "emailPlh": "uw.email@bedrijf.com",
+      "companyLbl": "Bedrijf",
+      "companyPlh": "Uw bedrijfsnaam",
+      "useCaseLbl": "Gebruiksscenario",
+      "useCasePlh": "bijv. Automatisering van klantenservice",
+      "messageLbl": "Bericht",
+      "messagePlh": "Vertel ons over uw project...",
+      "submitBtn": "AI-consultatie aanvragen",
+      "successMsg": "Bedankt! We nemen binnen 24 uur contact met u op."
+    }
   }
 }

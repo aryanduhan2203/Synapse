@@ -38,83 +38,73 @@ export default function TrustedBy({ dict }: TrustedByProps) {
           <div className="flex whitespace-nowrap animate-marquee">
             {/* Set 1 */}
             <div className="flex shrink-0 items-center gap-16 md:gap-24 pr-16 md:pr-24">
-              {/* Sajaya */}
+              {/* Vedguru */}
               <div className="font-serif text-[#f8fafc] text-5xl font-extrabold tracking-tight hover:scale-105 transition-transform duration-300">
-                Sajaya
+                Vedguru
               </div>
-              {/* GLOBAL Menu */}
+              {/* Eva Social */}
               <div className="flex items-center gap-3 text-white hover:scale-105 transition-transform duration-300">
                 <svg className="w-12 h-12 text-white opacity-95" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 4v2m-6 6h12a6 6 0 00-12 0zm-2 2h16a1 1 0 011 1v1H3v-1a1 1 0 011-1z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
                 </svg>
                 <div className="flex flex-col text-left leading-none font-black">
-                  <span className="text-xs tracking-[0.2em] opacity-90 uppercase">GLOBAL</span>
-                  <span className="text-3xl tracking-tight font-serif italic mt-0.5">menu</span>
+                  <span className="text-xs tracking-[0.25em] opacity-90 uppercase">EVA</span>
+                  <span className="text-3xl tracking-tight font-serif italic mt-0.5">social</span>
                 </div>
               </div>
-              {/* MUSELINK */}
+              {/* Artune */}
               <div className="font-sans font-black italic tracking-wide text-5xl text-white hover:scale-105 transition-transform duration-300">
-                MUSELINK
+                ARTUNE
               </div>
-              {/* D A S */}
+              {/* DAS */}
               <div className="font-sans font-extrabold tracking-[0.45em] text-5xl text-white hover:scale-105 transition-transform duration-300 pl-4">
                 DAS
               </div>
-              {/* DASH OF HEALTH */}
+              {/* Galinia AI */}
               <div className="flex flex-col text-left font-sans font-bold tracking-widest leading-none text-white hover:scale-105 transition-transform duration-300">
-                <span className="text-xs opacity-85 tracking-[0.3em]">DASH OF</span>
-                <span className="border-t-2 border-white/40 pt-1 mt-1 font-black text-3xl tracking-widest">HEALTH</span>
+                <span className="text-xs opacity-85 tracking-[0.3em]">GALINIA</span>
+                <span className="border-t-2 border-white/40 pt-1 mt-1 font-black text-3xl tracking-widest">AI</span>
               </div>
-              {/* swift bite */}
+              {/* Daeem */}
               <div className="flex flex-col text-left text-white leading-none hover:scale-105 transition-transform duration-300">
-                <span className="font-serif font-black tracking-tight text-5xl">swift</span>
-                <span className="text-xs tracking-[0.25em] uppercase opacity-85 font-mono mt-1 text-center">bite</span>
-              </div>
-              {/* Genesis */}
-              <div className="flex items-center gap-3 text-white hover:scale-105 transition-transform duration-300">
-                <div className="w-14 h-14 rounded-xl bg-white/15 flex items-center justify-center font-black text-3xl shadow-inner">G</div>
-                <span className="font-sans font-black text-2xl tracking-widest uppercase">Genesis</span>
+                <span className="font-serif font-black tracking-tight text-5xl">Daeem</span>
+                <span className="text-xs tracking-[0.25em] uppercase opacity-85 font-mono mt-1 text-center">logistics</span>
               </div>
             </div>
 
             {/* Set 2 for seamless loop (identical spacing and padding) */}
             <div className="flex shrink-0 items-center gap-16 md:gap-24 pr-16 md:pr-24" aria-hidden="true">
-              {/* Sajaya */}
+              {/* Vedguru */}
               <div className="font-serif text-[#f8fafc] text-5xl font-extrabold tracking-tight hover:scale-105 transition-transform duration-300">
-                Sajaya
+                Vedguru
               </div>
-              {/* GLOBAL Menu */}
+              {/* Eva Social */}
               <div className="flex items-center gap-3 text-white hover:scale-105 transition-transform duration-300">
                 <svg className="w-12 h-12 text-white opacity-95" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 4v2m-6 6h12a6 6 0 00-12 0zm-2 2h16a1 1 0 011 1v1H3v-1a1 1 0 011-1z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
                 </svg>
                 <div className="flex flex-col text-left leading-none font-black">
-                  <span className="text-xs tracking-[0.2em] opacity-90 uppercase">GLOBAL</span>
-                  <span className="text-3xl tracking-tight font-serif italic mt-0.5">menu</span>
+                  <span className="text-xs tracking-[0.25em] opacity-90 uppercase">EVA</span>
+                  <span className="text-3xl tracking-tight font-serif italic mt-0.5">social</span>
                 </div>
               </div>
-              {/* MUSELINK */}
+              {/* Artune */}
               <div className="font-sans font-black italic tracking-wide text-5xl text-white hover:scale-105 transition-transform duration-300">
-                MUSELINK
+                ARTUNE
               </div>
-              {/* D A S */}
+              {/* DAS */}
               <div className="font-sans font-extrabold tracking-[0.45em] text-5xl text-white hover:scale-105 transition-transform duration-300 pl-4">
                 DAS
               </div>
-              {/* DASH OF HEALTH */}
+              {/* Galinia AI */}
               <div className="flex flex-col text-left font-sans font-bold tracking-widest leading-none text-white hover:scale-105 transition-transform duration-300">
-                <span className="text-xs opacity-85 tracking-[0.3em]">DASH OF</span>
-                <span className="border-t-2 border-white/40 pt-1 mt-1 font-black text-3xl tracking-widest">HEALTH</span>
+                <span className="text-xs opacity-85 tracking-[0.3em]">GALINIA</span>
+                <span className="border-t-2 border-white/40 pt-1 mt-1 font-black text-3xl tracking-widest">AI</span>
               </div>
-              {/* swift bite */}
+              {/* Daeem */}
               <div className="flex flex-col text-left text-white leading-none hover:scale-105 transition-transform duration-300">
-                <span className="font-serif font-black tracking-tight text-5xl">swift</span>
-                <span className="text-xs tracking-[0.25em] uppercase opacity-85 font-mono mt-1 text-center">bite</span>
-              </div>
-              {/* Genesis */}
-              <div className="flex items-center gap-3 text-white hover:scale-105 transition-transform duration-300">
-                <div className="w-14 h-14 rounded-xl bg-white/15 flex items-center justify-center font-black text-3xl shadow-inner">G</div>
-                <span className="font-sans font-black text-2xl tracking-widest uppercase">Genesis</span>
+                <span className="font-serif font-black tracking-tight text-5xl">Daeem</span>
+                <span className="text-xs tracking-[0.25em] uppercase opacity-85 font-mono mt-1 text-center">logistics</span>
               </div>
             </div>
           </div>

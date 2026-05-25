@@ -21,12 +21,12 @@ export async function generateMetadata({
   return {
     title:
       lang === "nl"
-        ? "Synapse AI - Professionele Digitale Oplossingen"
-        : "Synapse AI - Professional Digital Solutions",
+        ? "Instasolution - Professionele Digitale Oplossingen"
+        : "Instasolution - Professional Digital Solutions",
     description:
       lang === "nl"
-        ? "Synapse is een toonaangevend softwarebedrijf dat intelligente cloudarchitecturen, high-performance webapps en UI/UX ontwerpt."
-        : "Synapse is a leading software company designing intelligent cloud architectures, high-performance web apps, and UI/UX.",
+        ? "Instasolution is een toonaangevend softwarebedrijf dat intelligente cloudarchitecturen, high-performance webapps en UI/UX ontwerpt."
+        : "Instasolution is a leading software company designing intelligent cloud architectures, high-performance web apps, and UI/UX.",
   };
 }
 

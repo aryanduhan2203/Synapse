@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 interface PortfolioProps {
   dict: {
@@ -20,6 +21,8 @@ interface PortfolioProps {
 }
 
 export default function Portfolio({ dict }: PortfolioProps) {
+  const params = useParams();
+  const lang = params?.lang as string || "en";
   return (
     <section id="case-studies" className="w-full bg-[#08090f] py-20 md:py-28 relative border-b border-white/5">
       {/* Glow decorations */}
@@ -50,16 +53,21 @@ export default function Portfolio({ dict }: PortfolioProps) {
         {/* Dynamic Project Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           
-          {/* Card 1: AURASOCIAL */}
-          <div className="group rounded-3xl bg-white text-slate-950 p-8 sm:p-10 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[420px] lg:min-h-[460px] hover:-translate-y-1">
+          {/* Card 1: EVA SOCIAL */}
+          <div id="eva" className="group rounded-3xl bg-[#f0f9ff] text-slate-900 p-8 sm:p-10 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[460px] hover:-translate-y-1 scroll-mt-24 border border-sky-100">
+            {/* Glow decoration */}
+            <div className="absolute top-0 right-0 w-[200px] h-[200px] bg-sky-200/30 rounded-full blur-[80px] pointer-events-none"></div>
+            
             <div className="max-w-md relative z-10">
               {/* Logo / Badge */}
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-xl bg-violet-600 flex items-center justify-center text-white font-black text-lg shadow-md">
-                  AS
+                <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-black text-lg shadow-md">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
                 </div>
                 <div>
-                  <span className="text-sm font-extrabold tracking-wider uppercase text-violet-600">
+                  <span className="text-sm font-extrabold tracking-wider uppercase text-slate-800">
                     {dict.projects.eva.title}
                   </span>
                 </div>
@@ -69,56 +77,41 @@ export default function Portfolio({ dict }: PortfolioProps) {
               </h3>
             </div>
 
-            {/* Graphic Mockup (AuraSocial UI preview) */}
-            <div className="relative w-full h-48 sm:h-56 mt-6 rounded-2xl bg-slate-50 border border-slate-200/80 shadow-inner overflow-hidden p-4 group-hover:scale-[1.02] transition-transform duration-300">
-              <div className="w-full h-full flex flex-col gap-2.5">
-                {/* Simulated Header */}
-                <div className="flex items-center justify-between border-b border-slate-200/60 pb-2">
-                  <div className="flex items-center gap-2">
-                    <div className="w-3.5 h-3.5 rounded-full bg-violet-600"></div>
-                    <div className="w-16 h-2 rounded bg-slate-200"></div>
+            {/* Cute AI robot & Speech Bubble */}
+            <div className="absolute bottom-6 left-6 z-20 hidden sm:flex items-end gap-2.5 pointer-events-none group-hover:scale-105 transition-transform duration-300">
+              <div className="relative w-14 h-14" style={{ animation: 'bounce 4s infinite' }}>
+                {/* Robot head */}
+                <div className="w-11 h-9 rounded-2xl bg-white border border-slate-200 shadow-md relative flex items-center justify-center">
+                  {/* Face screen */}
+                  <div className="w-8 h-6 rounded-lg bg-slate-950 flex items-center justify-center gap-1 p-0.5">
+                    <div className="w-1 h-1 rounded-full bg-cyan-400"></div>
+                    <div className="w-1 h-1 rounded-full bg-cyan-400"></div>
                   </div>
-                  <div className="flex gap-1.5">
-                    <div className="w-8 h-3.5 rounded bg-violet-100"></div>
-                    <div className="w-8 h-3.5 rounded bg-slate-200"></div>
-                  </div>
+                  {/* Antennas */}
+                  <div className="absolute -top-1.5 left-1/2 -translate-x-1/2 w-0.5 h-1.5 bg-slate-400"></div>
+                  <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-pink-500"></div>
                 </div>
-                {/* Simulated Dashboard content */}
-                <div className="grid grid-cols-3 gap-3 flex-grow">
-                  <div className="col-span-2 bg-white rounded-xl border border-slate-200/60 p-2.5 flex flex-col justify-between">
-                    <div className="space-y-1.5">
-                      <div className="w-2/3 h-2 rounded bg-slate-200"></div>
-                      <div className="w-full h-2 rounded bg-slate-100"></div>
-                    </div>
-                    <div className="flex justify-between items-center mt-2">
-                      <div className="w-12 h-4 rounded bg-violet-50 flex items-center justify-center text-[8px] font-bold text-violet-600">
-                        Schedule
-                      </div>
-                      <div className="w-6 h-2 rounded bg-slate-200"></div>
-                    </div>
-                  </div>
-                  <div className="bg-white rounded-xl border border-slate-200/60 p-2.5 flex flex-col justify-between items-center text-center">
-                    <div className="w-7 h-7 rounded-full bg-violet-50 flex items-center justify-center text-violet-600 text-xs font-bold">
-                      AI
-                    </div>
-                    <div className="w-10 h-1.5 rounded bg-slate-200 mt-2"></div>
-                  </div>
-                </div>
+                <div className="w-7 h-3 bg-slate-100 rounded-t mx-auto border-x border-slate-200 -mt-0.5"></div>
               </div>
-              {/* Overlay floating badge */}
-              <div className="absolute right-4 bottom-4 w-28 bg-white border border-slate-200/80 rounded-xl p-2.5 shadow-lg flex items-center gap-2 transform translate-y-1 group-hover:translate-y-0 transition-transform duration-300">
-                <div className="w-2 h-2 rounded-full bg-emerald-500"></div>
-                <div className="space-y-1 flex-grow">
-                  <div className="w-12 h-1.5 rounded bg-slate-200"></div>
-                  <div className="w-8 h-1 rounded bg-slate-100"></div>
-                </div>
+              <div className="bg-pink-500 text-white text-[8px] font-black px-2 py-0.5 rounded-lg shadow-sm relative -translate-y-2">
+                HI!
+                <div className="absolute left-1.5 -bottom-0.5 w-1 h-1 bg-pink-500 rotate-45"></div>
               </div>
+            </div>
+
+            {/* Mockup Image */}
+            <div className="relative w-full h-44 sm:h-52 mt-6 rounded-2xl bg-white border border-slate-200/80 shadow-md overflow-hidden group-hover:scale-[1.02] transition-transform duration-300 flex items-end">
+              <img
+                src="/images/portfolio/eva_mockup.png"
+                alt="Eva Social UI Preview"
+                className="w-full h-auto object-cover select-none"
+              />
             </div>
           </div>
 
-          {/* Card 2: MINDFLOW */}
-          <div className="group rounded-3xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-8 sm:p-10 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[420px] lg:min-h-[460px] hover:-translate-y-1">
-            {/* Background pattern */}
+          {/* Card 2: MentalWell */}
+          <div id="galinia" className="group rounded-3xl bg-gradient-to-br from-[#02a971] to-[#2bdba3] text-white p-8 sm:p-10 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[460px] hover:-translate-y-1 scroll-mt-24">
+            {/* Background leaf pattern */}
             <div className="absolute right-0 bottom-0 opacity-10 pointer-events-none transform translate-x-12 translate-y-12">
               <svg className="w-80 h-80" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M17 8C8 10 9 20 9 20s1.5-7 8-9c4-1.2 5-6 5-6s-4.5 3-8 4zm-8 4c-5.5 1.5-6.5 8-6.5 8s1-5 6.5-6.5c3.2-.8 4-4 4-4s-3.2 2-4 2.5z" />
@@ -127,11 +120,11 @@ export default function Portfolio({ dict }: PortfolioProps) {
 
             <div className="max-w-md relative z-10">
               {/* Logo / Badge */}
-              <div className="flex items-center gap-2 mb-6">
-                <svg className="w-7 h-7 text-emerald-100" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M17 8C8 10 9 20 9 20s1.5-7 8-9c4-1.2 5-6 5-6s-4.5 3-8 4z" />
+              <div className="flex items-center gap-2.5 mb-6">
+                <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17 8C8 10 9 20 9 20s1.5-7 8-9c4-1.2 5-6 5-6s-4.5 3-8 4zm-8 4c-5.5 1.5-6.5 8-6.5 8s1-5 6.5-6.5c3.2-.8 4-4 4-4s-3.2 2-4 2.5z" />
                 </svg>
-                <span className="text-sm font-extrabold tracking-wider uppercase text-emerald-100">
+                <span className="text-sm font-extrabold tracking-wider uppercase text-white font-sans">
                   {dict.projects.mental.title}
                 </span>
               </div>
@@ -140,110 +133,88 @@ export default function Portfolio({ dict }: PortfolioProps) {
               </h3>
             </div>
 
-            {/* Telemedicine call mockup graphic */}
-            <div className="relative w-full h-48 sm:h-56 mt-6 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg overflow-hidden flex items-center justify-around p-4 group-hover:scale-[1.02] transition-transform duration-300">
-              
-              {/* Call Screen mockup */}
-              <div className="w-1/2 h-full bg-[#0c0d14] rounded-xl border border-white/10 overflow-hidden relative flex flex-col justify-between p-2">
-                {/* Caller Video */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent z-0"></div>
-                <div className="absolute inset-0 flex items-center justify-center opacity-30 text-white font-mono text-[9px] select-none">
-                  Video Feed
-                </div>
-                
-                {/* Mini User Video */}
-                <div className="absolute bottom-2 right-2 w-10 h-14 rounded bg-slate-800 border border-white/20 z-10"></div>
-                
-                {/* Call controls */}
-                <div className="relative z-10 flex justify-center gap-1.5 mt-auto">
-                  <div className="w-4 h-4 rounded-full bg-red-500 flex items-center justify-center text-[6px]">📞</div>
-                  <div className="w-4 h-4 rounded-full bg-white/20 flex items-center justify-center text-[6px]">🎙️</div>
-                </div>
+            {/* Status Pills */}
+            <div className="absolute left-6 bottom-20 z-20 flex flex-col gap-2 pointer-events-none hidden sm:flex">
+              <div className="flex gap-2">
+                <span className="px-2.5 py-1 rounded-full bg-white text-slate-800 text-[10px] font-bold shadow-sm flex items-center gap-1">
+                  <span>😊</span> Calm
+                </span>
+                <span className="px-2.5 py-1 rounded-full bg-cyan-400 text-slate-900 text-[10px] font-bold shadow-sm flex items-center gap-1">
+                  <span>😴</span> Tired
+                </span>
               </div>
+              <div className="flex gap-2">
+                <span className="px-2.5 py-1 rounded-full bg-amber-400 text-slate-900 text-[10px] font-bold shadow-sm flex items-center gap-1">
+                  <span>😠</span> Angry
+                </span>
+                <span className="px-2.5 py-1 rounded-full bg-white text-slate-800 text-[10px] font-bold shadow-sm flex items-center gap-1">
+                  <span>😢</span> Heartbroken
+                </span>
+              </div>
+            </div>
 
-              {/* Chat list / Mood indicator mockup */}
-              <div className="w-1/2 max-w-[160px] h-full flex flex-col gap-2 justify-center pl-4">
-                <div className="bg-white/15 backdrop-blur-sm rounded-lg p-1.5 border border-white/10 flex items-center gap-2">
-                  <span className="text-xs">😊</span>
-                  <div className="space-y-0.5">
-                    <div className="w-12 h-1 bg-white/60 rounded"></div>
-                    <div className="w-8 h-0.5 bg-white/40 rounded"></div>
-                  </div>
-                </div>
-                <div className="bg-white/15 backdrop-blur-sm rounded-lg p-1.5 border border-white/10 flex items-center gap-2">
-                  <span className="text-xs">🧘</span>
-                  <div className="space-y-0.5">
-                    <div className="w-10 h-1 bg-white/60 rounded"></div>
-                    <div className="w-6 h-0.5 bg-white/40 rounded"></div>
-                  </div>
-                </div>
-              </div>
+            {/* Mockup Graphic */}
+            <div className="relative w-full h-44 sm:h-52 mt-6 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg overflow-hidden flex items-end justify-center group-hover:scale-[1.02] transition-transform duration-300">
+              <img
+                src="/images/portfolio/mental_mockup.png"
+                alt="MentalWell Mobile Mockups"
+                className="h-full w-auto object-contain select-none"
+              />
             </div>
           </div>
 
-          {/* Card 3: SWIFTBITE */}
-          <div className="group rounded-3xl bg-[#fdf5f0] text-slate-950 p-8 sm:p-10 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[420px] lg:min-h-[460px] hover:-translate-y-1">
+          {/* Card 3: DAEEM */}
+          <Link href={`/${lang}/case-study/daeem`} id="daeem" className="group rounded-3xl bg-white text-slate-955 p-8 sm:p-10 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[460px] hover:-translate-y-1 scroll-mt-24 border border-slate-100 block cursor-pointer">
+            {/* Soft pink wave ribbon background */}
+            <div className="absolute inset-0 z-0 pointer-events-none opacity-20 group-hover:opacity-25 transition-opacity">
+              <svg viewBox="0 0 1000 300" fill="none" className="w-full h-full object-cover">
+                <path d="M-100 150 C300 50, 500 250, 1100 120" stroke="url(#wave-gradient)" strokeWidth="60" strokeLinecap="round" />
+                <defs>
+                  <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#ef4444" />
+                    <stop offset="100%" stopColor="#fca5a5" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+
             <div className="max-w-md relative z-10">
               {/* Logo / Badge */}
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-full bg-orange-650 flex items-center justify-center text-white font-extrabold text-[9px] shadow uppercase">
-                  Swift
+              <div className="flex items-center gap-2 mb-6">
+                <div className="flex flex-col">
+                  <span className="text-[8px] font-black text-[#e52e2e] tracking-widest leading-none">داعم دليفري</span>
+                  <span className="text-2xl font-black text-[#0f54b6] tracking-tighter leading-none">daeem<span className="text-[#e52e2e] font-extrabold text-[10px] ml-0.5">delivery</span></span>
                 </div>
-                <span className="text-sm font-extrabold tracking-wider uppercase text-orange-650">
-                  {dict.projects.daeem.title}
-                </span>
               </div>
-              <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight mb-4 text-slate-900 leading-tight">
+              <h3 className="text-xl sm:text-2xl font-extrabold tracking-tight mb-4 text-slate-900 leading-tight">
                 {dict.projects.daeem.desc}
               </h3>
             </div>
 
-            {/* Food delivery app mockup */}
-            <div className="relative w-full h-48 sm:h-56 mt-6 rounded-2xl bg-white border border-slate-200/80 shadow-md overflow-hidden p-4 flex gap-4 group-hover:scale-[1.02] transition-transform duration-300">
-              {/* Left Side: Category list */}
-              <div className="w-1/3 flex flex-col gap-2 border-r border-slate-100 pr-2">
-                <div className="w-full h-8 rounded-lg bg-orange-50 border border-orange-100 flex items-center justify-center text-[9px] font-bold text-orange-600 gap-1">
-                  🍕 Pizza
-                </div>
-                <div className="w-full h-8 rounded-lg bg-slate-50 flex items-center justify-center text-[9px] text-slate-600 gap-1">
-                  🍔 Burger
-                </div>
-                <div className="w-full h-8 rounded-lg bg-slate-50 flex items-center justify-center text-[9px] text-slate-600 gap-1">
-                  🍣 Sushi
-                </div>
-              </div>
-
-              {/* Right Side: Store cards */}
-              <div className="w-2/3 flex flex-col gap-2 justify-center">
-                <div className="border border-slate-200/60 rounded-xl p-2 flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-orange-100 flex-shrink-0 flex items-center justify-center text-lg">🍕</div>
-                  <div className="space-y-1 flex-grow">
-                    <div className="w-16 h-2 bg-slate-200 rounded"></div>
-                    <div className="w-24 h-1.5 bg-slate-150 rounded"></div>
-                  </div>
-                </div>
-                {/* 20% off promo banner overlay */}
-                <div className="bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-lg p-2 flex items-center justify-between shadow-md">
-                  <div className="space-y-0.5">
-                    <div className="text-[8px] font-extrabold tracking-wide uppercase">Promo Offer</div>
-                    <div className="text-[10px] font-black">20% OFF FIRST ORDER</div>
-                  </div>
-                  <span className="text-xs">🎉</span>
-                </div>
-              </div>
+            {/* Scooter driver */}
+            <div className="absolute bottom-6 left-6 z-20 pointer-events-none hidden sm:block group-hover:translate-x-4 transition-transform duration-500">
+              <span className="text-5xl">🛵</span>
             </div>
-          </div>
 
+            {/* Mockup Graphic */}
+            <div className="relative w-full h-44 sm:h-52 mt-6 rounded-2xl bg-white border border-slate-100 shadow-sm overflow-hidden flex items-center justify-center group-hover:scale-[1.02] transition-transform duration-300 z-10">
+              <img
+                src="/images/portfolio/daeem_mockup.png"
+                alt="Daeem Mobile App Mockups"
+                className="w-full h-auto object-cover select-none"
+              />
+            </div>
+          </Link>
           {/* Card 4: GENESIS ERP */}
-          <div className="group rounded-3xl bg-gradient-to-br from-[#0c1222] to-[#060913] text-white p-8 sm:p-10 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[420px] lg:min-h-[460px] hover:-translate-y-1 border border-slate-800/80">
+          <div id="das" className="group rounded-3xl bg-gradient-to-br from-[#0c1222] to-[#060913] text-white p-8 sm:p-10 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[420px] lg:min-h-[460px] hover:-translate-y-1 border border-slate-800/80 scroll-mt-24">
             {/* Grid overlay */}
             <div className="absolute inset-0 grid-bg opacity-[0.06] pointer-events-none"></div>
 
             <div className="max-w-md relative z-10">
               {/* Logo / Badge */}
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-400/20 flex items-center justify-center text-cyan-400 font-black text-xl shadow-md">
-                  G
+                <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-400/20 flex items-center justify-center text-cyan-400 font-black text-xs shadow-md">
+                  DAS
                 </div>
                 <div>
                   <span className="text-sm font-extrabold tracking-wider uppercase text-cyan-450">
@@ -295,11 +266,14 @@ export default function Portfolio({ dict }: PortfolioProps) {
           {/* Card 5 & 6 (ASTROGUIDE and MUSELINK) */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:col-span-2">
             
-            {/* Card 5: ASTROGUIDE */}
-            <div className="group rounded-3xl bg-[#e65c00] text-white p-8 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[380px] hover:-translate-y-1">
-              <div>
+            {/* Card 5: VEDGURU */}
+            <div id="vedguru" className="group rounded-3xl bg-[#c05304] text-white p-8 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[380px] hover:-translate-y-1 scroll-mt-24">
+              {/* Astrology backgrounds */}
+              <div className="absolute -top-12 -left-12 w-32 h-32 opacity-10 pointer-events-none border border-dashed border-white rounded-full"></div>
+              
+              <div className="relative z-10">
                 <div className="flex items-center gap-2 mb-4">
-                  <span className="text-xs font-black tracking-widest uppercase text-orange-200">
+                  <span className="text-xs font-black tracking-widest uppercase text-yellow-300">
                     {dict.projects.vedguru.title}
                   </span>
                 </div>
@@ -308,52 +282,56 @@ export default function Portfolio({ dict }: PortfolioProps) {
                 </h4>
               </div>
 
-              {/* Horoscope astrology wheel mockup */}
-              <div className="relative w-full h-36 mt-4 rounded-xl bg-orange-700/35 border border-white/10 flex items-center justify-center overflow-hidden">
-                <div className="w-24 h-24 rounded-full border border-white/15 animate-[spin_20s_linear_infinite] flex items-center justify-center opacity-70">
-                  <div className="w-16 h-16 rounded-full border border-dashed border-white/20 flex items-center justify-center">
-                    <span className="text-lg">☀️</span>
-                  </div>
-                </div>
-                {/* Astro chat overlay */}
-                <div className="absolute bottom-2 left-2 right-2 bg-white text-slate-900 rounded-lg p-2 flex items-center justify-between border border-orange-100 shadow-md">
-                  <div className="flex items-center gap-2">
-                    <div className="w-5 h-5 rounded-full bg-orange-100 flex items-center justify-center text-[10px]">🧙</div>
-                    <div className="text-[9px] font-bold">Sandy: Connect with Astrologer</div>
-                  </div>
-                  <div className="bg-orange-600 text-white text-[8px] font-bold px-2 py-0.5 rounded-full">
-                    Chat
-                  </div>
-                </div>
+              {/* Sun/Moon Astrology Symbol */}
+              <div className="absolute -left-6 -bottom-6 w-24 h-24 opacity-15 pointer-events-none text-yellow-300 hidden sm:block">
+                <svg fill="currentColor" viewBox="0 0 24 24" className="w-full h-full animate-[spin_60s_linear_infinite]">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-13c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z" />
+                </svg>
+              </div>
+
+              {/* Mockup Graphic */}
+              <div className="relative w-full h-36 mt-4 rounded-xl bg-black/10 border border-white/10 flex items-end justify-center overflow-hidden group-hover:scale-[1.02] transition-transform duration-300">
+                <img
+                  src="/images/portfolio/vedguru_mockup.png"
+                  alt="Vedguru Mobile Astrology Mockup"
+                  className="h-full w-auto object-contain select-none"
+                />
               </div>
             </div>
 
-            {/* Card 6: MUSELINK */}
-            <div className="group rounded-3xl bg-[#5200cc] text-white p-8 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[380px] hover:-translate-y-1">
-              <div>
+            {/* Card 6: ARTUNE */}
+            <div id="artune" className="group rounded-3xl bg-[#5d3fd3] text-white p-8 flex flex-col justify-between overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 min-h-[380px] hover:-translate-y-1 scroll-mt-24">
+              
+              <div className="relative z-10">
+                {/* Yellow Ring decoration at the top-left */}
+                <div className="absolute -top-12 -left-12 w-24 h-24 rounded-full border-[10px] border-yellow-400 border-r-transparent rotate-45 opacity-60"></div>
+                
+                {/* Logo and Headings */}
                 <div className="flex items-center gap-2 mb-4">
-                  <span className="text-xs font-black tracking-widest uppercase text-violet-200">
-                    {dict.projects.artune.title}
+                  <span className="text-2xl font-black tracking-tight font-serif italic text-white">
+                    ARTUNE
                   </span>
                 </div>
                 <h4 className="text-xl sm:text-2xl font-extrabold tracking-tight leading-snug">
-                  {dict.projects.artune.desc}
+                  {dict.projects.artune.desc.split(". ").map((chunk, i) => (
+                    <span key={i} className={i === 1 ? "text-yellow-400 bg-gradient-to-r from-yellow-300 to-amber-400 bg-clip-text text-transparent block mt-1" : "block"}>
+                      {chunk}{i === 0 && "."}
+                    </span>
+                  ))}
                 </h4>
               </div>
 
-              {/* Contemporary art UI frame mockup */}
-              <div className="relative w-full h-36 mt-4 rounded-xl bg-violet-950 border border-white/15 overflow-hidden p-3 flex flex-col justify-between">
-                <div className="flex items-center justify-between">
-                  <span className="text-[9px] font-extrabold tracking-widest text-violet-300 uppercase">MUSELINK DEPTH</span>
-                  <div className="w-2.5 h-2.5 rounded-full bg-violet-500"></div>
-                </div>
-                <div className="grid grid-cols-3 gap-2 my-2 flex-grow">
-                  <div className="bg-violet-900/50 rounded-lg border border-white/5 flex items-center justify-center text-xs">🖼️</div>
-                  <div className="bg-violet-900/50 rounded-lg border border-white/5 flex items-center justify-center text-xs">🎨</div>
-                  <div className="bg-violet-900/50 rounded-lg border border-white/5 flex items-center justify-center text-xs">🗿</div>
-                </div>
-                <div className="w-full h-2 rounded bg-violet-900"></div>
+              {/* Mockup Graphic */}
+              <div className="relative w-full h-36 mt-4 rounded-xl bg-black/10 border border-white/10 flex items-end justify-center overflow-hidden group-hover:scale-[1.02] transition-transform duration-300">
+                <img
+                  src="/images/artune/browser_mockup.png"
+                  alt="Artune Web UI Preview"
+                  className="h-full w-auto object-contain select-none"
+                />
+                {/* Visual Yellow arch element overlaying browser corner */}
+                <div className="absolute -bottom-8 -right-8 w-16 h-16 rounded-full border-[8px] border-yellow-400 opacity-80 pointer-events-none"></div>
               </div>
+
             </div>
 
           </div>

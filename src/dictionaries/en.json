@@ -7,13 +7,39 @@
     "industries": "Industries",
     "caseStudies": "Case Studies",
     "blogs": "Blogs",
-    "cta": "Get a Quote"
+    "cta": "Get a Quote",
+    "caseStudiesDropdown": {
+      "daeem": {
+        "title": "Daeem",
+        "desc": "A comprehensive on-demand delivery and logistics solution."
+      },
+      "vedguru": {
+        "title": "Vedguru",
+        "desc": "A digital spiritual ecosystem connecting users with Vedic wisdom."
+      },
+      "galinia": {
+        "title": "MentalWell",
+        "desc": "Your Personal Mental Wellness Companion."
+      },
+      "eva": {
+        "title": "Eva Social",
+        "desc": "An interactive social networking platform."
+      },
+      "artune": {
+        "title": "Artune",
+        "desc": "Flat Is Dead. Depth Is Here."
+      },
+      "das": {
+        "title": "DAS",
+        "desc": "A premium digital couture experience redefining luxury."
+      }
+    }
   },
   "hero": {
     "badge": "Let's build your MVP first",
     "headingMain": "Building Digital Solutions for a",
     "headingHighlight": "Smarter Future",
-    "description": "Synapse is a leading software innovation company partnering with founders and enterprise teams. We deliver intelligent cloud architectures, high-performance web applications, UI/UX designs, and scalable systems that thrive under load.",
+    "description": "Instasolution is a leading software innovation company partnering with founders and enterprise teams. We deliver intelligent cloud architectures, high-performance web applications, UI/UX designs, and scalable systems that thrive under load.",
     "bubbleAI": "Smart AI solution",
     "bubbleShield": "Secured & Encrypted"
   },
@@ -61,28 +87,28 @@
     "cta": "Explore More Projects",
     "projects": {
       "eva": {
-        "title": "AURASOCIAL",
-        "desc": "Next-Gen AI Scheduling & Social Automation"
+        "title": "Eva Social",
+        "desc": "An interactive social networking platform."
       },
       "mental": {
-        "title": "MINDFLOW",
-        "desc": "Real-time Telemedicine & Wellness Network"
+        "title": "MentalWell",
+        "desc": "Your Personal Mental Wellness Companion."
       },
       "daeem": {
-        "title": "SWIFTBITE",
-        "desc": "The Ultimate Food Delivery and Dining App"
+        "title": "Daeem",
+        "desc": "A comprehensive on-demand delivery and logistics solution."
       },
       "genesis": {
-        "title": "GENESIS ERP",
-        "desc": "Enterprise Workflow & SaaS Cloud Platform"
+        "title": "DAS",
+        "desc": "A premium digital couture experience redefining luxury."
       },
       "vedguru": {
-        "title": "ASTROGUIDE",
-        "desc": "Live Astrology Consultation Platform"
+        "title": "Vedguru",
+        "desc": "A digital spiritual ecosystem connecting users with Vedic wisdom."
       },
       "artune": {
-        "title": "MUSELINK",
-        "desc": "Curated Modern Art Marketplace"
+        "title": "Artune",
+        "desc": "Flat Is Dead. Depth Is Here."
       }
     }
   },
@@ -151,12 +177,12 @@
       {
         "author": "Emma Rodriguez",
         "location": "USA",
-        "text": "Delaine Technologies delivered our mobile app ahead of schedule and exceeded expectations. The UI/UX is world-class, and the support team is incredibly responsive."
+        "text": "Instasolution delivered our mobile app ahead of schedule and exceeded expectations. The UI/UX is world-class, and the support team is incredibly responsive."
       },
       {
         "author": "James Whitaker",
         "location": "UK",
-        "text": "We partnered with Delaine for a custom eCommerce platform, and the results were outstanding. Smooth performance, beautiful design, and great communication."
+        "text": "We partnered with Instasolution for a custom eCommerce platform, and the results were outstanding. Smooth performance, beautiful design, and great communication."
       },
       {
         "author": "Sophie Dubois",
@@ -172,7 +198,7 @@
   },
   "trusted": {
     "title": "Trusted By",
-    "subtitle": "Over 1500+ software businesses growing with Synapse",
+    "subtitle": "Over 1500+ software businesses growing with Instasolution",
     "cta": "View Case Study"
   },
   "industries": {
@@ -205,7 +231,7 @@
     }
   },
   "footer": {
-    "rights": "© 2026 Synapse Technologies Pvt. Ltd. All Rights Reserved.",
+    "rights": "© 2026 Insta Solutions BV. All Rights Reserved.",
     "concept": "From concept to creation",
     "terms": "Terms and Conditions",
     "privacy": "Privacy Policy",
@@ -234,8 +260,886 @@
       "Customers",
       "Contact us"
     ],
-    "email": "hello@synapse.ai",
-    "offices": "Our Offices",
-    "phone": "+1 (555) 019-2834"
+    "email": "info@instasolution.nl",
+    "offices": "Hoofddorp, The Netherlands",
+    "phone": "06 47070940"
+  },
+  "caseStudyDaeem": {
+    "category": "CASE STUDY",
+    "title": "Problem ➔ Solution ➔ Impact",
+    "subtitle": "How We Helped Daeem Delivery App Delivery Time by 38% in 4 Months",
+    "description": "How we designed and built Saudi Arabia's premier on-demand delivery and logistics platform from the ground up.",
+    "stat1Value": "38%",
+    "stat1Label": "Delivery Time Reduction",
+    "stat2Value": "99.9%",
+    "stat2Label": "System Uptime",
+    "stat3Value": "1M+",
+    "stat3Label": "Monthly Deliveries",
+    "overview": {
+      "title": "Client Overview",
+      "desc1": "Daeem Delivery is an on-demand logistics provider based in Saudi Arabia. They sought to streamline food delivery, improve driver routing, and rebuild their customer mobile application to deliver a world-class user experience.",
+      "desc2": "We partnered with their team to define the product strategy, create a cohesive design system, and implement a high-performance, real-time tracking architecture.",
+      "industryLabel": "Industry",
+      "industryValue": "Food Delivery & Logistics",
+      "locationLabel": "Location",
+      "locationValue": "Saudi Arabia",
+      "servicesLabel": "Services",
+      "servicesValue": "Mobile App, Route Optimization, Driver Tracking"
+    },
+    "testimonial": {
+      "quote": "Partnering with this team has been a game-changer for our business. We had been struggling to bring down our delivery times without compromising on quality, and within just a few months, they completely transformed our operations. Their deep understanding of both technology and the food delivery industry meant they could suggest improvements we hadn't even considered. From revamping our app's user experience to optimizing our backend logistics, every step was executed with precision and care. Today, our customers enjoy a faster, smoother ordering experience, and we've seen a measurable boost in repeat orders and customer satisfaction. This wasn't just a service provider for us — it felt like having an in-house innovation partner who genuinely cared about our growth",
+      "author": "CEO, Daeem Delivery"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "How we helped Daeem succeed at every phase of development.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Conceptualization",
+          "desc": "We mapped user journeys for customers, restaurants, and drivers to eliminate friction points."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Design",
+          "desc": "A complete high-fidelity visual revamp optimized for quick checkouts and real-time map tracking."
+        },
+        {
+          "step": "03",
+          "title": "Core Engineering",
+          "desc": "Developed high-performance iOS & Android apps with native-speed UI using Flutter and React Native."
+        },
+        {
+          "step": "04",
+          "title": "Cloud & DevOps",
+          "desc": "Configured robust hosting, automated scaling, and secure API gateways handling peak meal-time loads."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "The Challenge",
+      "subtitle": "Before partnering with us, Daeem Delivery faced:",
+      "points": [
+        "Sluggish delivery times causing customer dissatisfaction.",
+        "Inefficient order routing for drivers.",
+        "A dated UI/UX that didn't match modern food app expectations."
+      ]
+    },
+    "solution": {
+      "title": "Our Solution",
+      "subtitle": "We provided:",
+      "points": [
+        "Optimized Delivery Algorithm: Reduced average delivery time by 38%.",
+        "Complete UI/UX Revamp: Designed for speed, clarity, and engagement.",
+        "Real-time Driver Tracking & Order Updates: Increased customer trust."
+      ]
+    },
+    "technologies": {
+      "title": "Technologies We Use"
+    }
+  },
+  "caseStudyVedguru": {
+    "category": "CASE STUDY",
+    "title": "Problem ➔ Solution ➔ Impact",
+    "subtitle": "How We Helped Daeem Delivery App Delivery Time by 38% in 4 Months",
+    "description": "How we designed and built Saudi Arabia's premier on-demand delivery and logistics platform from the ground up.",
+    "stat1Value": "38%",
+    "stat1Label": "Delivery Time Reduction",
+    "stat2Value": "99.9%",
+    "stat2Label": "System Uptime",
+    "stat3Value": "1M+",
+    "stat3Label": "Monthly Deliveries",
+    "overview": {
+      "title": "Client Overview",
+      "desc1": "Vedguru is a digital platform that connects users with experienced astrologers, spiritual guides, and Vedic experts to provide personalized consultations and insights based on ancient Indian astrology and spiritual wisdom.",
+      "desc2": "The platform allows users to book live consultations, chat with astrologers, receive personalized horoscope readings, and explore remedies for life's challenges related to career, relationships, health, and finances.",
+      "desc3": "Vedguru's mission is to make authentic Vedic knowledge accessible to a global audience through modern technology while maintaining the depth and accuracy of traditional practices.",
+      "desc4": "As their user base rapidly expanded, Vedguru needed to improve the platform's performance, enhance the consultation experience, and build a scalable system capable of supporting thousands of real-time users interacting with astrologers simultaneously.",
+      "industryLabel": "Industry",
+      "industryValue": "Spiritual & Astrology Consultation Platform",
+      "locationLabel": "Location",
+      "locationValue": "India",
+      "servicesLabel": "Services",
+      "servicesValue": "Web Platform, Scalable Backend, Mobile App"
+    },
+    "testimonial": {
+      "quote": "Working with this team allowed us to modernize our platform while preserving the authenticity of Vedic astrology. As Vedguru grew, we needed a technology partner who could help us scale our consultation system and improve user experience. Their expertise helped us optimize performance, improve real-time communication between users and astrologers, and introduce smarter scheduling and booking features. Today, our users enjoy a faster and more seamless consultation experience, and our astrologers can serve more clients efficiently. It truly felt like working with a team that respected our vision and helped us bring traditional wisdom into the digital age.",
+      "author": "Founder & CEO, Vedguru"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "How we helped Daeem succeed at every phase of development.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Conceptualization",
+          "desc": "We mapped user journeys for customers, restaurants, and drivers to eliminate friction points."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Design",
+          "desc": "A complete high-fidelity visual revamp optimized for quick checkouts and real-time map tracking."
+        },
+        {
+          "step": "03",
+          "title": "Core Engineering",
+          "desc": "Developed high-performance iOS & Android apps with native-speed UI using Flutter and React Native."
+        },
+        {
+          "step": "04",
+          "title": "Cloud & DevOps",
+          "desc": "Configured robust hosting, automated scaling, and secure API gateways handling peak meal-time loads."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "The Challenge",
+      "subtitle": "Before partnering with us, Daeem Delivery faced:",
+      "points": [
+        "Sluggish delivery times causing customer dissatisfaction.",
+        "Inefficient order routing for drivers.",
+        "A dated UI/UX that didn't match modern food app expectations."
+      ]
+    },
+    "solution": {
+      "title": "Our Solution",
+      "subtitle": "We provided:",
+      "points": [
+        "Optimized Delivery Algorithm: Reduced average delivery time by 38%.",
+        "Complete UI/UX Revamp: Designed for speed, clarity, and engagement.",
+        "Real-time Driver Tracking & Order Updates: Increased customer trust."
+      ]
+    },
+    "technologies": {
+      "title": "Technologies We Use"
+    }
+  },
+  "caseStudyGalinia": {
+    "category": "CASE STUDY",
+    "title": "Problem ➔ Solution ➔ Impact",
+    "subtitle": "How We Helped MentalWell Scale Their Platform and Improve User Engagement by 65%",
+    "description": "How we designed and built a premier digital mental wellness companion connecting users to essential emotional support.",
+    "stat1Value": "65%",
+    "stat1Label": "Increase in Daily Users",
+    "stat2Value": "99.9%",
+    "stat2Label": "System Uptime & Privacy",
+    "stat3Value": "500k+",
+    "stat3Label": "Sessions Hosted",
+    "overview": {
+      "title": "Client Overview",
+      "desc1": "MentalWell is an innovative digital platform dedicated to making mental health resources accessible, engaging, and personalized. Designed for modern users seeking emotional balance, it connects individuals with certified therapists, guided meditations, and mood-tracking tools.",
+      "desc2": "The application empowers users to take control of their mental wellbeing by offering AI-driven insights into their emotional patterns, secure video counseling sessions, and a supportive community forum for shared experiences.",
+      "desc3": "MentalWell's mission is to break down the stigma surrounding mental health care and provide a safe, confidential environment where users can access professional support anytime, anywhere.",
+      "desc4": "As awareness of mental health issues surged globally, MentalWell faced the challenge of scaling their platform to accommodate thousands of new daily active users while ensuring absolute data privacy and a frictionless user experience.",
+      "industryLabel": "Industry",
+      "industryValue": "Mental Health & Wellness",
+      "locationLabel": "Location",
+      "locationValue": "United Kingdom",
+      "servicesLabel": "Services",
+      "servicesValue": "Mobile App, Telehealth Architecture, AI Tracking"
+    },
+    "testimonial": {
+      "quote": "Collaborating with this team was a pivotal moment for MentalWell. We were struggling to scale our infrastructure while maintaining the strict privacy and security standards required in telehealth. Their engineering excellence completely transformed our backend, while their design team crafted an incredibly soothing, intuitive user experience. Since relaunching, our daily active users have skyrocketed, and the feedback from our community has been overwhelmingly positive. They didn't just build an app; they helped us build a sanctuary for mental health.",
+      "author": "CEO, MentalWell"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "How we helped Daeem succeed at every phase of development.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Conceptualization",
+          "desc": "We mapped user journeys for customers, restaurants, and drivers to eliminate friction points."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Design",
+          "desc": "A complete high-fidelity visual revamp optimized for quick checkouts and real-time map tracking."
+        },
+        {
+          "step": "03",
+          "title": "Core Engineering",
+          "desc": "Developed high-performance iOS & Android apps with native-speed UI using Flutter and React Native."
+        },
+        {
+          "step": "04",
+          "title": "Cloud & DevOps",
+          "desc": "Configured robust hosting, automated scaling, and secure API gateways handling peak meal-time loads."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "The Challenge",
+      "subtitle": "Before partnering with us, Daeem Delivery faced:",
+      "points": [
+        "Sluggish delivery times causing customer dissatisfaction.",
+        "Inefficient order routing for drivers.",
+        "A dated UI/UX that didn't match modern food app expectations."
+      ]
+    },
+    "solution": {
+      "title": "Our Solution",
+      "subtitle": "We provided:",
+      "points": [
+        "Optimized Delivery Algorithm: Reduced average delivery time by 38%.",
+        "Complete UI/UX Revamp: Designed for speed, clarity, and engagement.",
+        "Real-time Driver Tracking & Order Updates: Increased customer trust."
+      ]
+    },
+    "technologies": {
+      "title": "Technologies We Use"
+    }
+  },
+  "caseStudyEva": {
+    "category": "CASE STUDY",
+    "title": "Problem ➔ Solution ➔ Impact",
+    "subtitle": "How We Helped Eva Social Build a Scalable Networking Platform and Boost Engagement by 150%",
+    "description": "How we engineered a highly engaging, multimedia-rich social network built for community growth.",
+    "stat1Value": "150%",
+    "stat1Label": "Increase in Engagement",
+    "stat2Value": "99.99%",
+    "stat2Label": "Server Uptime",
+    "stat3Value": "2M+",
+    "stat3Label": "Active Users",
+    "overview": {
+      "title": "Client Overview",
+      "desc1": "Eva Social is a next-generation interactive social networking platform designed to connect people through shared passions and immersive digital experiences. The platform empowers creators, influencers, and everyday users to build vibrant, authentic communities.",
+      "desc2": "Unlike traditional networks, Eva Social focuses on rich media integration, featuring live audio rooms, highly customizable user spaces, and AI-driven content discovery that ensures a toxic-free and engaging environment.",
+      "desc3": "The mission of Eva Social is to foster genuine human connections in a digital world by prioritizing user safety, organic growth, and intuitive design over algorithmic manipulation.",
+      "desc4": "As the platform gained viral traction, the core challenge shifted to building a highly scalable backend architecture capable of handling real-time multimedia streams, instant messaging, and a rapidly expanding global user base without compromising speed.",
+      "industryLabel": "Industry",
+      "industryValue": "Social Media & Networking",
+      "locationLabel": "Location",
+      "locationValue": "United States",
+      "servicesLabel": "Services",
+      "servicesValue": "Web Platform, Mobile App, Real-Time Architecture"
+    },
+    "testimonial": {
+      "quote": "Working with this team was exactly what Eva Social needed to break into the crowded social media landscape. We had a brilliant concept, but we lacked the technical firepower to handle massive simultaneous live audio streams and real-time feeds. They not only engineered an incredibly robust backend that handles our peak traffic effortlessly, but they also refined our UI/UX to make the app incredibly sticky. Since our launch, user retention has exceeded all expectations. They are true partners who genuinely understand the nuances of building a community-first digital product.",
+      "author": "Co-Founder, Eva Social"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "How we helped Daeem succeed at every phase of development.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Conceptualization",
+          "desc": "We mapped user journeys for customers, restaurants, and drivers to eliminate friction points."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Design",
+          "desc": "A complete high-fidelity visual revamp optimized for quick checkouts and real-time map tracking."
+        },
+        {
+          "step": "03",
+          "title": "Core Engineering",
+          "desc": "Developed high-performance iOS & Android apps with native-speed UI using Flutter and React Native."
+        },
+        {
+          "step": "04",
+          "title": "Cloud & DevOps",
+          "desc": "Configured robust hosting, automated scaling, and secure API gateways handling peak meal-time loads."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "The Challenge",
+      "subtitle": "Before partnering with us, Daeem Delivery faced:",
+      "points": [
+        "Sluggish delivery times causing customer dissatisfaction.",
+        "Inefficient order routing for drivers.",
+        "A dated UI/UX that didn't match modern food app expectations."
+      ]
+    },
+    "solution": {
+      "title": "Our Solution",
+      "subtitle": "We provided:",
+      "points": [
+        "Optimized Delivery Algorithm: Reduced average delivery time by 38%.",
+        "Complete UI/UX Revamp: Designed for speed, clarity, and engagement.",
+        "Real-time Driver Tracking & Order Updates: Increased customer trust."
+      ]
+    },
+    "technologies": {
+      "title": "Technologies We Use"
+    }
+  },
+  "caseStudyArtune": {
+    "category": "CASE STUDY",
+    "title": "Problem ➔ Solution ➔ Impact",
+    "subtitle": "How We Helped Artune Build a Scalable Music Discovery Platform with Modern Web Technologies",
+    "description": "Artune redefines the online art market by offering exclusive, limited-edition posters with unparalleled depth and visual impact.",
+    "stat1Value": "300%",
+    "stat1Label": "Increase in Sales",
+    "stat2Value": "50K+",
+    "stat2Label": "Active Collectors",
+    "stat3Value": "4.9",
+    "stat3Label": "User Rating",
+    "overview": {
+      "title": "Client Overview",
+      "desc1": "Artune is a disruptive e-commerce startup focused on delivering premium, high-depth posters to art enthusiasts globally. They needed a platform that could showcase the intricate details of their physical products in a digital space.",
+      "desc2": "We designed and developed a bespoke storefront with a highly visual product discovery experience, seamless checkout, and an architecture capable of handling high-traffic limited edition drops.",
+      "industryLabel": "Industry",
+      "industryValue": "E-Commerce & Digital Art",
+      "locationLabel": "Location",
+      "locationValue": "Global",
+      "servicesLabel": "Services",
+      "servicesValue": "Web Platform, UI/UX Design, E-Commerce Architecture"
+    },
+    "testimonial": {
+      "quote": "This team didn't just build a store; they captured the essence of our art. Our posters are all about depth and visual striking power, and the website reflects exactly that. Since the launch, our conversion rates have tripled, and our community loves the new shopping experience.",
+      "author": "Founder, Artune"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "How we brought the Artune vision to life.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Visual Strategy",
+          "desc": "Defined a dark, immersive UI theme to make the vivid poster colors pop."
+        },
+        {
+          "step": "02",
+          "title": "Storefront Engineering",
+          "desc": "Built a blazing fast Next.js frontend with seamless transitions and smooth scrolling."
+        },
+        {
+          "step": "03",
+          "title": "Backend Architecture",
+          "desc": "Implemented a scalable inventory system to manage high-demand, limited-edition product drops."
+        },
+        {
+          "step": "04",
+          "title": "Optimization",
+          "desc": "Integrated advanced image loading strategies to ensure crisp visuals without compromising speed."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "The Challenge",
+      "subtitle": "Before the revamp, Artune faced:",
+      "points": [
+        "A generic storefront that failed to highlight product quality.",
+        "Slow load times due to unoptimized high-resolution images.",
+        "Server crashes during popular limited-edition poster releases."
+      ]
+    },
+    "solution": {
+      "title": "Our Solution",
+      "subtitle": "We delivered:",
+      "points": [
+        "A highly tailored, immersive UI that puts the art center stage.",
+        "Optimized image delivery pipeline ensuring instant load times.",
+        "A robust serverless backend capable of handling sudden traffic spikes effortlessly."
+      ]
+    },
+    "technologies": {
+      "title": "Technologies We Use"
+    }
+  },
+  "caseStudyDas": {
+    "category": "CASE STUDY",
+    "title": "Digital Couture",
+    "subtitle": "How We Built a Stunning E-Commerce Experience for DAS Timeless Luxury Abayas",
+    "description": "How we designed and built a digital masterpiece capturing the soul of high fashion luxury for DAS.",
+    "stat1Value": "200%",
+    "stat1Label": "Increase in Online Sales",
+    "stat2Value": "0.5s",
+    "stat2Label": "Page Load Time",
+    "stat3Value": "50K+",
+    "stat3Label": "Global Customers",
+    "overview": {
+      "title": "Client Overview",
+      "desc1": "DAS is a premier luxury fashion brand specializing in timeless abayas. They sought to translate their physical boutique experience into an elegant, high-performance digital storefront.",
+      "desc2": "We partnered with their creative team to design a visually stunning platform that reflects their 'Digital Couture' vision, combining seamless animations with an intuitive, luxury user journey.",
+      "industryLabel": "Industry",
+      "industryValue": "Luxury Fashion & E-Commerce",
+      "locationLabel": "Location",
+      "locationValue": "Global",
+      "servicesLabel": "Services",
+      "servicesValue": "Web Platform, UI/UX Design, E-Commerce Architecture"
+    },
+    "testimonial": {
+      "quote": "Partnering with this team has been a transformative journey for our brand. In the world of luxury, every detail matters — from the stitch on a garment to the pixel on a screen. They didn't just build a platform; they created a digital masterpiece that captures the soul of DAS. Their ability to translate our vision of \"Digital Couture\" into a high-performance, visually stunning reality has set a new benchmark in the industry. From the seamless animations to the intuitive user journey, every element reflects the luxury and precision we stand for. This partnership has not only elevated our brand but has genuinely redefined how our clients experience high fashion in the digital age.",
+      "author": "Founder & Creative Director, DAS"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "How we brought the DAS luxury experience online.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Visual Strategy",
+          "desc": "Defined a minimalist, high-contrast UI theme to let the garments speak for themselves."
+        },
+        {
+          "step": "02",
+          "title": "UI/UX Design",
+          "desc": "A complete high-fidelity visual revamp optimized for elegant scrolling and seamless transitions."
+        },
+        {
+          "step": "03",
+          "title": "Storefront Engineering",
+          "desc": "Developed a blazing fast Next.js frontend with native-feeling animations using Framer Motion."
+        },
+        {
+          "step": "04",
+          "title": "Backend Architecture",
+          "desc": "Implemented a scalable inventory and bespoke checkout system for high-end clientele."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "The Challenge",
+      "subtitle": "Before partnering with us, DAS faced:",
+      "points": [
+        "A dated e-commerce experience that didn't reflect their luxury brand positioning.",
+        "Slow loading times that frustrated high-end customers.",
+        "A lack of seamless, engaging animations to showcase the intricate details of the abayas."
+      ]
+    },
+    "solution": {
+      "title": "Our Solution",
+      "subtitle": "We provided:",
+      "points": [
+        "A complete UI/UX revamp focusing on minimalist elegance and \"Digital Couture\".",
+        "An optimized Next.js platform delivering instant page loads and buttery-smooth transitions.",
+        "A tailored, high-performance checkout experience designed for a seamless luxury journey."
+      ]
+    },
+    "technologies": {
+      "title": "Technologies We Use"
+    }
+  },
+  "getAQuote": {
+    "leftTitle1": "Let's Build Something",
+    "leftTitle2": "Extraordinary Together",
+    "description": "Whether you have a project in mind, need expert advice, or simply want to explore how our solutions can help your business grow, we're here to listen and guide you every step of the way.",
+    "phone": "06 47070940",
+    "email": "info@instasolution.nl",
+    "joinTeam": "Want to Join Our talented Team?",
+    "joinBtn": "Join Now",
+    "formTitle1": "Start Your Project",
+    "formTitle2": "With Us",
+    "placeholderName": "Full Name",
+    "placeholderEmail": "Email Address",
+    "placeholderBudget": "Budget Estimate",
+    "placeholderPhone": "Contact Number",
+    "placeholderMessage": "Your Message",
+    "trust1": "Get a personalized reply in under 3 hours.",
+    "trust2": "Your concept stays confidential — NDA available upon request.",
+    "submitBtn": "Send My Request"
+  },
+  "company": {
+    "title": "Instasolution - People. Product. Progress.",
+    "desc1_part1": "Based in ",
+    "desc1_highlight1": "Hoofddorp, The Netherlands",
+    "desc1_part2": ", we work with teams worldwide to build digital products that hold up in the real world. As a ",
+    "desc1_highlight2": "global software development company",
+    "desc1_part3": ", we blend mobile app development, web development, UI/UX design, and cloud solutions to help you launch faster and scale without chaos.",
+    "desc2_part1": "What clients usually come to us for is simple: ",
+    "desc2_highlight1": "clarity and reliability",
+    "desc2_part2": ". Clear scope, clean builds, honest updates, and support that doesn't vanish after go-live, whether you're down the street or across time zones.",
+    "ctaBtn": "Get a Free Quote"
+  },
+  "culture": {
+    "title": "At Instasolution, our culture is built on a few simple values.",
+    "p1": "When you hire a development partner, you're not just hiring code. You're hiring how a team thinks, communicates, and handles pressure when the scope changes or deadlines get tight. That's why we keep our culture simple and practical.",
+    "p2": "We work with ownership, speak with clarity, and keep the process transparent, so you're never guessing what's happening. The result is what clients actually care about: fewer surprises, faster decisions, and products that ship with confidence.",
+    "faqs": [
+      {
+        "q": "What mobile app development services do you offer?",
+        "a": "We offer end-to-end mobile app development services, including native iOS and Android development, cross-platform solutions using React Native and Flutter, and seamless backend integration."
+      },
+      {
+        "q": "What software development services do you offer?",
+        "a": "Our software development services cover custom enterprise software, web applications, cloud architectures, and scalable SaaS platforms designed to meet your specific business needs."
+      },
+      {
+        "q": "How do you keep my app and data secure?",
+        "a": "We prioritize security at every stage. We implement industry-standard encryption, secure authentication methods, regular vulnerability assessments, and strictly follow data protection regulations."
+      },
+      {
+        "q": "Do you offer app maintenance and support services?",
+        "a": "Yes, we provide continuous maintenance and support post-launch to ensure your app remains secure, up-to-date with the latest OS versions, and performs optimally."
+      },
+      {
+        "q": "Do you develop software for both mobile and web platforms?",
+        "a": "Absolutely. We build cohesive digital experiences across both mobile and web platforms, ensuring a unified architecture and consistent user experience across all devices."
+      },
+      {
+        "q": "How long does it take to create a fully-functioning app?",
+        "a": "The timeline varies based on complexity and features. A basic MVP can take 2-3 months, while a full-scale enterprise application might take 6+ months. We provide clear timelines during our initial scoping phase."
+      }
+    ]
+  },
+  "teamReviews": {
+    "title": "Hear From Our Team Members",
+    "subtitle": "Hear directly from the people who build with us every day. Their stories reflect the culture we're proud of.",
+    "leftCard": {
+      "title": "What our people say about working at Instasolution",
+      "count": "270+",
+      "label": "Team Members",
+      "btn": "View More Reviews"
+    },
+    "reviews": [
+      {
+        "name": "Emma Rodriguez",
+        "location": "USA",
+        "text": "Working at Instasolution has been incredible. The culture of ownership and clear communication makes delivering complex mobile apps a rewarding experience.",
+        "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+      },
+      {
+        "name": "James Whitaker",
+        "location": "UK",
+        "text": "The collaborative environment here is unmatched. We build high-performance scalable platforms, and the leadership ensures we have all the support we need.",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      {
+        "name": "Sarah Chen",
+        "location": "Canada",
+        "text": "I joined as a UI/UX designer and immediately felt valued. The focus on transparency and quality means we always ship products we're genuinely proud of.",
+        "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+      },
+      {
+        "name": "David Müller",
+        "location": "Germany",
+        "text": "Instasolution's commitment to clean builds and honest updates isn't just for clients—it's how we treat each other internally. It's a fantastic place to grow.",
+        "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+      }
+    ]
+  },
+  "companyCTA": {
+    "joinTitle": "Want to be part of our story?",
+    "joinDesc": "We're always looking for curious, humble, and ambitious people to join our team. Explore open roles or reach out to start a conversation.",
+    "joinBtn": "View Open Positions",
+    "newsTitle": "Stay inspired by what we're building.",
+    "newsDesc": "Get occasional updates on new case studies, product insights, and life at Instasolution.",
+    "placeholder": "Enter your email",
+    "newsBtn": "Start Your Project",
+    "newsDisclaimer": "No spam. Just thoughtful stories and insights."
+  },
+  "whyContactUs": {
+    "title": "Why Contact Us",
+    "card1Title": "Fast Response",
+    "card1Desc": "We'll get back to you within 24 hours.",
+    "card2Title": "Expert Guidance",
+    "card2Desc": "Benefit from our years of industry experience.",
+    "card3Title": "Global Experience",
+    "card3Desc": "We've successfully delivered projects worldwide.",
+    "card4Title": "Proven Results",
+    "card4Desc": "Our portfolio speaks for itself with high success rates."
+  },
+  "aiHero": {
+    "title": "AI Solutions That Ship",
+    "titleHighlight": "Not Just Demos",
+    "desc": "We integrate AI into your web & mobile products to automate work, improve decisions, and deliver smarter customer experiences.",
+    "ctaBtn": "Book an AI Strategy Call",
+    "feature1": "NDA ready",
+    "feature2": "Secure deployments",
+    "feature3": "Fast delivery"
+  },
+  "aiOutcomes": {
+    "title": "Business Outcomes",
+    "card1Title": "2-4 weeks",
+    "card1Desc": "Prototype ready",
+    "card2Title": "6-10 weeks",
+    "card2Desc": "Production rollout",
+    "card3Title": "30-60%",
+    "card3Desc": "Time saved (use-case based)",
+    "card4Title": "Security-first",
+    "card4Desc": "RBAC, audit logs, private deployment"
+  },
+  "aiDeliver": {
+    "title": "What We Deliver with AI",
+    "explore": "Explore",
+    "cards": [
+      {
+        "title": "AI for Business Operations",
+        "desc": "Streamline internal workflows and automate repetitive tasks with intelligent automation.",
+        "bullets": ["Support automation", "Document processing", "Workflow automation", "Internal chatbots"]
+      },
+      {
+        "title": "AI Inside Your App / Website",
+        "desc": "Embed intelligent features directly into your customer-facing products.",
+        "bullets": ["RAG search", "Recommendations", "Personalization", "Chat UI"]
+      },
+      {
+        "title": "AI Strategy & Data Readiness",
+        "desc": "Plan your AI journey with expert guidance and prepare your data infrastructure.",
+        "bullets": ["Roadmap creation", "Data audit", "Architecture design", "Build vs buy analysis"]
+      }
+    ]
+  },
+  "aiUseCases": {
+    "title": "AI Use Cases by Industry",
+    "industries": [
+      {
+        "id": "healthcare",
+        "name": "Healthcare",
+        "cases": [
+          {
+            "icon": "chat",
+            "title": "AI Support Agent",
+            "desc": "24/7 patient support with intelligent triage and appointment scheduling.",
+            "tags": ["RAG", "Automation"]
+          },
+          {
+            "icon": "document",
+            "title": "DocAI Extraction",
+            "desc": "Extract and process medical records with high accuracy.",
+            "tags": ["Automation", "NLP"]
+          },
+          {
+            "icon": "chart",
+            "title": "Predictive Insights",
+            "desc": "Forecast patient outcomes and optimize resource allocation.",
+            "tags": ["Analytics", "ML"]
+          },
+          {
+            "icon": "sparkles",
+            "title": "Personalization Engine",
+            "desc": "Customize treatment plans and patient communication.",
+            "tags": ["Personalization", "RAG"]
+          }
+        ]
+      },
+      {
+        "id": "ecommerce",
+        "name": "E-commerce",
+        "cases": [
+          {
+            "icon": "search",
+            "title": "Semantic Search",
+            "desc": "Help customers find exactly what they want using natural language.",
+            "tags": ["NLP", "Search"]
+          },
+          {
+            "icon": "sparkles",
+            "title": "Smart Recommendations",
+            "desc": "Boost sales with AI-driven hyper-personalized product suggestions.",
+            "tags": ["ML", "Personalization"]
+          },
+          {
+            "icon": "chart",
+            "title": "Inventory Forecasting",
+            "desc": "Predict demand trends and automatically optimize stock levels.",
+            "tags": ["Analytics", "Automation"]
+          },
+          {
+            "icon": "chat",
+            "title": "Virtual Shopping Assistant",
+            "desc": "Guide users through their purchasing journey automatically.",
+            "tags": ["Chatbot", "RAG"]
+          }
+        ]
+      },
+      {
+        "id": "logistics",
+        "name": "Logistics",
+        "cases": [
+          {
+            "icon": "chart",
+            "title": "Route Optimization",
+            "desc": "Dynamically calculate the fastest routes saving fuel and time.",
+            "tags": ["ML", "Analytics"]
+          },
+          {
+            "icon": "document",
+            "title": "Automated Processing",
+            "desc": "Instantly process bills of lading and customs documentation.",
+            "tags": ["OCR", "NLP"]
+          },
+          {
+            "icon": "sparkles",
+            "title": "Demand Prediction",
+            "desc": "Forecast shipping volumes to allocate resources efficiently.",
+            "tags": ["Predictive", "ML"]
+          },
+          {
+            "icon": "chat",
+            "title": "Fleet Tracking Bot",
+            "desc": "Allow clients to track shipments using natural conversation.",
+            "tags": ["Chatbot", "Automation"]
+          }
+        ]
+      },
+      {
+        "id": "realestate",
+        "name": "Real Estate",
+        "cases": [
+          {
+            "icon": "sparkles",
+            "title": "Property Matching",
+            "desc": "Match buyers with their dream homes using AI preferences.",
+            "tags": ["Personalization", "ML"]
+          },
+          {
+            "icon": "document",
+            "title": "Lease Abstraction",
+            "desc": "Automatically extract key terms from complex lease agreements.",
+            "tags": ["NLP", "Automation"]
+          },
+          {
+            "icon": "chart",
+            "title": "Market Valuation",
+            "desc": "Predict property values based on historical and real-time data.",
+            "tags": ["Analytics", "Predictive"]
+          },
+          {
+            "icon": "chat",
+            "title": "Virtual Agent",
+            "desc": "Answer property queries and schedule viewings 24/7.",
+            "tags": ["Chatbot", "RAG"]
+          }
+        ]
+      },
+      {
+        "id": "fintech",
+        "name": "Fintech",
+        "cases": [
+          {
+            "icon": "shield",
+            "title": "Fraud Detection",
+            "desc": "Identify suspicious transactions in real-time with high accuracy.",
+            "tags": ["ML", "Security"]
+          },
+          {
+            "icon": "document",
+            "title": "Automated KYC/AML",
+            "desc": "Speed up customer onboarding by automating document verification.",
+            "tags": ["OCR", "Automation"]
+          },
+          {
+            "icon": "chart",
+            "title": "Credit Scoring",
+            "desc": "Use alternative data sources for more accurate risk assessment.",
+            "tags": ["Analytics", "ML"]
+          },
+          {
+            "icon": "chat",
+            "title": "Financial Advisor Bot",
+            "desc": "Provide personalized financial insights and budgeting advice.",
+            "tags": ["Personalization", "NLP"]
+          }
+        ]
+      }
+    ]
+  },
+  "aiHowWeDeliver": {
+    "title": "How We Deliver AI",
+    "subtitle": "A battle-tested process from discovery to production.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Discovery & KPIs",
+        "desc": "Define goals, success metrics, and data requirements."
+      },
+      {
+        "num": "02",
+        "title": "Data + Security Plan",
+        "desc": "Audit data readiness and establish security protocols."
+      },
+      {
+        "num": "03",
+        "title": "Prototype with Real Data",
+        "desc": "Build a working proof-of-concept with your actual data."
+      },
+      {
+        "num": "04",
+        "title": "Build + Integrate",
+        "desc": "Develop production-grade AI and integrate into your product."
+      },
+      {
+        "num": "05",
+        "title": "Monitor + Optimize",
+        "desc": "Continuous monitoring, evaluation, and improvement."
+      }
+    ]
+  },
+  "aiAccelerators": {
+    "title": "AI Accelerators to Ship Faster",
+    "subtitle": "Pre-built components to accelerate your AI implementation",
+    "stacks": [
+      {
+        "category": "LLMS",
+        "items": ["OpenAI", "Azure OpenAI", "Anthropic", "Gemini"]
+      },
+      {
+        "category": "VECTOR DB",
+        "items": ["Pinecone", "pgvector", "Weaviate", "Qdrant"]
+      },
+      {
+        "category": "BACKEND",
+        "items": ["Node.js", "Python", "FastAPI", "Next.js"]
+      },
+      {
+        "category": "CLOUD",
+        "items": ["AWS", "Azure", "GCP", "Vercel"]
+      },
+      {
+        "category": "SECURITY",
+        "items": ["RBAC", "PII masking", "Audit logs", "SOC 2"]
+      }
+    ]
+  },
+  "aiFaq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our AI solutions",
+    "faqs": [
+      {
+        "q": "What data do you need to get started?",
+        "a": "We typically need access to relevant datasets, business goals, success metrics, and any existing system documentation to properly scope and plan your AI solution."
+      },
+      {
+        "q": "Can you integrate AI into our existing apps?",
+        "a": "Absolutely. We specialise in integrating AI capabilities into existing platforms via APIs, SDKs, and custom middleware — without requiring a full rebuild of your current stack."
+      },
+      {
+        "q": "How do you handle AI accuracy and hallucinations?",
+        "a": "We use a combination of retrieval-augmented generation (RAG), fine-tuning, confidence scoring, and human-in-the-loop validation to minimise errors and keep outputs grounded in verified data."
+      },
+      {
+        "q": "Do you offer private deployment options?",
+        "a": "Yes. We support fully private on-premise deployments, private cloud environments, and air-gapped setups for organisations with strict data-sovereignty or compliance requirements."
+      },
+      {
+        "q": "What's the typical timeline for an AI project?",
+        "a": "A focused MVP typically takes 6–10 weeks. Enterprise-scale projects with deep integrations usually run 3–6 months depending on complexity, data readiness, and stakeholder availability."
+      },
+      {
+        "q": "What kind of support do you provide after launch?",
+        "a": "We offer tiered post-launch support plans including 24/7 monitoring, model re-training cycles, performance reviews, and dedicated engineering support to keep your AI solution performing at its best."
+      }
+    ]
+  },
+  "aiContactCTA": {
+    "title": "Ready to Add AI to",
+    "titleHighlight": "Your Product?",
+    "desc": "Transform your business with intelligent automation and smarter customer experiences.",
+    "bullets": [
+      "Faster support",
+      "Automated documents",
+      "Smarter search & insights",
+      "Secure integration"
+    ],
+    "replyNote": "We reply within 24 hours",
+    "form": {
+      "nameLbl": "Name",
+      "namePlh": "Your name",
+      "emailLbl": "Email",
+      "emailPlh": "your.email@company.com",
+      "companyLbl": "Company",
+      "companyPlh": "Your company name",
+      "useCaseLbl": "Use Case",
+      "useCasePlh": "e.g. Customer support automation",
+      "messageLbl": "Message",
+      "messagePlh": "Tell us about your project...",
+      "submitBtn": "Request AI Consultation",
+      "successMsg": "Thank you! We'll be in touch within 24 hours."
+    }
   }
 }

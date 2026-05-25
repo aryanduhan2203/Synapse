@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 
 interface BlogPost {
   category: string;
@@ -65,26 +64,38 @@ export default function Blog({ dict }: BlogProps) {
           {/* Layout Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch relative z-10">
             
-            {/* Left Column: Big Feature Image Frame */}
-            <div className="lg:col-span-5 relative min-h-[380px] lg:min-h-full rounded-2xl overflow-hidden shadow-lg border border-slate-850 group">
-              <Image
-                src="/developer_at_work.png"
-                alt="Developer at work with AI tools"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                sizes="(max-width: 768px) 100vw, 40vw"
-                priority
-              />
-              
+            {/* Left Column: Big Feature Card Frame (Glassmorphic Redesign without Photo) */}
+            <div className="lg:col-span-5 relative min-h-[380px] lg:min-h-full rounded-2xl overflow-hidden shadow-xl border border-slate-800/80 bg-gradient-to-br from-[#112437] via-[#091522] to-[#060b11] group flex flex-col justify-between p-6">
+              {/* Animated abstract light glow */}
+              <div className="absolute -right-20 -top-20 w-60 h-60 bg-teal-500/10 rounded-full blur-[80px] group-hover:bg-teal-500/15 transition-colors duration-500 pointer-events-none"></div>
+              <div className="absolute -left-20 -bottom-20 w-60 h-60 bg-purple-500/10 rounded-full blur-[80px] group-hover:bg-purple-500/15 transition-colors duration-500 pointer-events-none"></div>
+
+              {/* Center Abstract Tech Design */}
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none opacity-40 group-hover:opacity-60 transition-opacity duration-500">
+                <svg className="w-48 h-48 text-slate-800" fill="none" viewBox="0 0 200 200" stroke="currentColor">
+                  {/* Outer circle */}
+                  <circle cx="100" cy="100" r="80" strokeWidth="1" strokeDasharray="4 6" className="animate-[spin_120s_linear_infinite]" />
+                  {/* Inner glowing circle */}
+                  <circle cx="100" cy="100" r="50" strokeWidth="1.5" className="text-teal-500/20" />
+                  {/* Floating particles or crosshairs */}
+                  <line x1="100" y1="20" x2="100" y2="180" strokeWidth="0.5" strokeDasharray="2 4" />
+                  <line x1="20" y1="100" x2="180" y2="100" strokeWidth="0.5" strokeDasharray="2 4" />
+                  {/* Glowing central sphere */}
+                  <circle cx="100" cy="100" r="10" className="fill-teal-500/10 stroke-teal-500/40" />
+                </svg>
+              </div>
+
               {/* Top brand logo overlay */}
-              <div className="absolute top-5 left-5 text-white/90 font-black text-xl select-none tracking-tighter filter drop-shadow">
+              <div className="relative z-10 text-white/90 font-black text-2xl select-none tracking-tighter filter drop-shadow">
                 DF
               </div>
 
               {/* Floating Featured Badge */}
-              <span className="absolute bottom-5 left-5 bg-teal-400/90 text-[#0c0d14] text-[9px] font-black uppercase tracking-widest px-3 py-1 rounded-full shadow-lg backdrop-blur-sm">
-                Featured Article
-              </span>
+              <div className="relative z-10 mt-auto">
+                <span className="inline-block bg-teal-400/90 text-[#0c0d14] text-[9px] font-black uppercase tracking-widest px-3 py-1 rounded-full shadow-lg backdrop-blur-sm">
+                  Featured Article
+                </span>
+              </div>
             </div>
 
             {/* Right Column: Featured Details & Bottom 3 horizontal Cards */}
