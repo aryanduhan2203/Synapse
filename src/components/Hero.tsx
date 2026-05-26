@@ -12,9 +12,10 @@ interface HeroProps {
     bubbleAI: string;
     bubbleShield: string;
   };
+  lang: string;
 }
 
-export default function Hero({ dict }: HeroProps) {
+export default function Hero({ dict, lang }: HeroProps) {
   return (
     <section className="relative w-full overflow-hidden grid-bg pt-12 pb-24 md:pt-20 md:pb-32">
       {/* Background radial gradient glow */}
@@ -29,7 +30,7 @@ export default function Hero({ dict }: HeroProps) {
             {/* CTA Pill Badge */}
             <div className="inline-flex">
               <Link 
-                href="#contact"
+                href={`/${lang}/contact`}
                 className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-slate-700 bg-slate-900/60 hover:border-slate-600 transition-colors group"
               >
                 <span className="w-2 h-2 rounded-full bg-teal-400"></span>
@@ -58,7 +59,7 @@ export default function Hero({ dict }: HeroProps) {
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 pt-2">
               <Link 
-                href="#contact"
+                href={`/${lang}/contact`}
                 className="inline-flex items-center justify-center px-8 py-3.5 rounded-full border border-slate-700 bg-transparent hover:bg-white hover:text-slate-900 text-sm font-bold text-white transition-all duration-300 hover:scale-[1.03] active:scale-95 group"
               >
                 {dict.badge}

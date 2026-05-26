@@ -100,19 +100,31 @@ export default function Navbar({ dict, lang }: NavbarProps) {
           <nav className="hidden md:flex space-x-8 text-sm font-medium items-center">
             <Link
               href={`/${lang}`}
-              className="text-teal-400 hover:text-teal-300 transition-colors"
+              className={`${
+                pathname === `/${lang}` || pathname === `/${lang}/`
+                  ? "text-teal-400 hover:text-teal-300"
+                  : "text-slate-300 hover:text-white"
+              } transition-colors`}
             >
               {dict.home}
             </Link>
             <Link
               href={`/${lang}/ai-solution`}
-              className="text-slate-300 hover:text-white transition-colors"
+              className={`${
+                pathname === `/${lang}/ai-solution` || pathname.startsWith(`/${lang}/ai-solution/`)
+                  ? "text-teal-400 hover:text-teal-300"
+                  : "text-slate-300 hover:text-white"
+              } transition-colors`}
             >
               {dict.aiSolution}
             </Link>
             <Link
               href={`/${lang}/company`}
-              className="text-slate-300 hover:text-white transition-colors"
+              className={`${
+                pathname === `/${lang}/company` || pathname.startsWith(`/${lang}/company/`)
+                  ? "text-teal-400 hover:text-teal-300"
+                  : "text-slate-300 hover:text-white"
+              } transition-colors`}
             >
               {dict.company}
             </Link>
@@ -137,7 +149,11 @@ export default function Navbar({ dict, lang }: NavbarProps) {
             >
               <Link
                 href={`/${lang}#case-studies`}
-                className="text-slate-300 hover:text-white transition-colors py-4 flex items-center gap-1.5"
+                className={`${
+                  pathname.includes("/case-study/")
+                    ? "text-teal-400 hover:text-teal-300"
+                    : "text-slate-300 hover:text-white"
+                } transition-colors py-4 flex items-center gap-1.5`}
               >
                 <span>{dict.caseStudies}</span>
                 <svg
@@ -316,8 +332,12 @@ export default function Navbar({ dict, lang }: NavbarProps) {
             </div>
 
             <Link
-              href={`/${lang}#blogs`}
-              className="text-slate-300 hover:text-white transition-colors"
+              href={`/${lang}/blogs`}
+              className={`${
+                pathname === `/${lang}/blogs` || pathname.startsWith(`/${lang}/blogs/`)
+                  ? "text-teal-400 hover:text-teal-300"
+                  : "text-slate-300 hover:text-white"
+              } transition-colors`}
             >
               {dict.blogs}
             </Link>
@@ -382,7 +402,7 @@ export default function Navbar({ dict, lang }: NavbarProps) {
               href={`/${lang}/contact`}
               className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-bold text-slate-900 rounded-full group bg-gradient-to-br from-teal-400 to-cyan-500 hover:text-slate-950 dark:text-white focus:ring-4 focus:outline-none focus:ring-teal-800 transition-all duration-300 hover:scale-105"
             >
-              <span className="relative px-6 py-2.5 transition-all ease-in duration-75 bg-[#0c0d14] dark:bg-[#0c0d14] rounded-full group-hover:bg-opacity-0 text-white group-hover:text-[#0c0d14] flex items-center gap-2">
+              <span className="relative px-6 py-2.5 transition-all ease-in duration-75 bg-[#0c0d14] dark:bg-[#0c0d14] rounded-full group-hover:bg-opacity-0 text-white group-hover:text-[#575d83] flex items-center gap-2">
                 {dict.cta}
                 <svg
                   className="w-4 h-4 transform group-hover:translate-x-1 transition-transform"
@@ -447,21 +467,33 @@ export default function Navbar({ dict, lang }: NavbarProps) {
           <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3">
             <Link
               href={`/${lang}`}
-              className="block px-3 py-2 rounded-md text-base font-semibold text-teal-400 bg-slate-900/50"
+              className={`block px-3 py-2 rounded-md text-base font-semibold ${
+                pathname === `/${lang}` || pathname === `/${lang}/`
+                  ? "text-teal-400 bg-slate-900/50"
+                  : "text-slate-300 hover:text-white hover:bg-slate-800"
+              }`}
               onClick={() => setIsOpen(false)}
             >
               {dict.home}
             </Link>
             <Link
               href={`/${lang}/ai-solution`}
-              className="block px-3 py-2 rounded-md text-base font-semibold text-slate-300 hover:text-white hover:bg-slate-800"
+              className={`block px-3 py-2 rounded-md text-base font-semibold ${
+                pathname === `/${lang}/ai-solution` || pathname.startsWith(`/${lang}/ai-solution/`)
+                  ? "text-teal-400 bg-slate-900/50"
+                  : "text-slate-300 hover:text-white hover:bg-slate-800"
+              }`}
               onClick={() => setIsOpen(false)}
             >
               {dict.aiSolution}
             </Link>
             <Link
               href={`/${lang}/company`}
-              className="block px-3 py-2 rounded-md text-base font-semibold text-slate-300 hover:text-white hover:bg-slate-800"
+              className={`block px-3 py-2 rounded-md text-base font-semibold ${
+                pathname === `/${lang}/company` || pathname.startsWith(`/${lang}/company/`)
+                  ? "text-teal-400 bg-slate-900/50"
+                  : "text-slate-300 hover:text-white hover:bg-slate-800"
+              }`}
               onClick={() => setIsOpen(false)}
             >
               {dict.company}
@@ -485,7 +517,11 @@ export default function Navbar({ dict, lang }: NavbarProps) {
             <div>
               <button
                 onClick={() => setMobileCaseStudiesOpen(!mobileCaseStudiesOpen)}
-                className="w-full flex items-center justify-between px-3 py-2 rounded-md text-base font-semibold text-slate-300 hover:text-white hover:bg-slate-800"
+                className={`w-full flex items-center justify-between px-3 py-2 rounded-md text-base font-semibold ${
+                  pathname.includes("/case-study/")
+                    ? "text-teal-400 bg-slate-900/50"
+                    : "text-slate-300 hover:text-white hover:bg-slate-800"
+                }`}
               >
                 <span>{dict.caseStudies}</span>
                 <svg
@@ -591,8 +627,12 @@ export default function Navbar({ dict, lang }: NavbarProps) {
             </div>
 
             <Link
-              href={`/${lang}#blogs`}
-              className="block px-3 py-2 rounded-md text-base font-semibold text-slate-300 hover:text-white hover:bg-slate-800"
+              href={`/${lang}/blogs`}
+              className={`block px-3 py-2 rounded-md text-base font-semibold ${
+                pathname === `/${lang}/blogs` || pathname.startsWith(`/${lang}/blogs/`)
+                  ? "text-teal-400 bg-slate-900/50"
+                  : "text-slate-300 hover:text-white hover:bg-slate-800"
+              }`}
               onClick={() => setIsOpen(false)}
             >
               {dict.blogs}

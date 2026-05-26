@@ -29,7 +29,7 @@ export default async function LanguagePage({
     <>
       <Navbar dict={dict.nav} lang={lang} />
       <main className="flex-grow">
-        <Hero dict={dict.hero} />
+        <Hero dict={dict.hero} lang={lang} />
         <Promo dict={dict.promo} />
         <FeaturedOn dict={dict.featured} />
         <Services dict={dict.services} />

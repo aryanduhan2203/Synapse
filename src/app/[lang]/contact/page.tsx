@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import CountryPhoneInput from "@/components/CountryPhoneInput";
 import FeaturedOn from "@/components/FeaturedOn";
 import WhyContactUs from "@/components/WhyContactUs";
+import WhereIdeasMeetImpact from "@/components/WhereIdeasMeetImpact";
 import { getDictionary, Locale } from "@/lib/dictionary";
 
 export function generateStaticParams() {
@@ -193,67 +194,16 @@ export default async function ContactPage({
       <FeaturedOn dict={dict.featured} />
 
       {/* Where Ideas Meet Impact Component */}
-      <section className="w-full bg-[#161821] py-20 border-b border-white/5">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-10 tracking-tight">
-            Where Ideas Meet Impact
-          </h2>
-
-          <div className="relative flex items-center justify-center">
-            {/* Left Arrow */}
-            <button className="hidden sm:flex absolute left-0 w-10 h-10 rounded-full border border-slate-600 items-center justify-center text-slate-400 hover:text-white hover:border-white transition-colors">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="15 18 9 12 15 6"></polyline>
-              </svg>
-            </button>
-
-            {/* Testimonial Content */}
-            <div className="px-4 sm:px-16 max-w-4xl flex flex-col items-center">
-              {/* Daeem Logo SVG */}
-              <div className="mb-8 select-none">
-                <svg width="180" height="50" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <text x="100" y="20" fontFamily="sans-serif" fontSize="14" fill="#EF4444" textAnchor="middle" fontWeight="bold">داعم دليفري</text>
-                  <text x="100" y="45" fontFamily="sans-serif" fontSize="36" fontWeight="bold" textAnchor="middle" letterSpacing="-1">
-                    <tspan fill="#3B82F6">d</tspan>
-                    <tspan fill="#F59E0B">a</tspan>
-                    <tspan fill="#EAB308">e</tspan>
-                    <tspan fill="#3B82F6">e</tspan>
-                    <tspan fill="#EF4444">m</tspan>
-                    <tspan fill="#EF4444" fontSize="16" dy="-4" dx="4" letterSpacing="0">delivery</tspan>
-                  </text>
-                </svg>
-              </div>
-
-              {/* Quote */}
-              <div className="relative">
-                <span className="absolute -top-6 -left-6 sm:-left-8 text-6xl text-slate-700 font-serif leading-none select-none italic">“</span>
-                <p className="text-slate-300 text-sm sm:text-[15px] leading-relaxed font-medium tracking-wide">
-                  {dict.caseStudyDaeem.testimonial.quote}
-                </p>
-                <span className="absolute -bottom-8 -right-6 sm:-right-8 text-6xl text-slate-700 font-serif leading-none select-none italic">”</span>
-              </div>
-            </div>
-
-            {/* Right Arrow */}
-            <button className="hidden sm:flex absolute right-0 w-10 h-10 rounded-full border border-slate-600 items-center justify-center text-slate-400 hover:text-white hover:border-white transition-colors">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="9 18 15 12 9 6"></polyline>
-              </svg>
-            </button>
-          </div>
-
-          {/* CTA Button */}
-          <div className="mt-14 flex justify-center">
-            <button className="bg-transparent border border-slate-600 hover:border-white hover:bg-white/10 text-white rounded-full px-6 py-2 text-sm font-semibold flex items-center gap-2 transition-all">
-              Start Your Success Journey
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </section>
+      <WhereIdeasMeetImpact 
+        dict={{
+          daeem: dict.caseStudyDaeem.testimonial,
+          vedguru: dict.caseStudyVedguru.testimonial,
+          galinia: dict.caseStudyGalinia.testimonial,
+          eva: dict.caseStudyEva.testimonial,
+          artune: dict.caseStudyArtune.testimonial,
+          das: dict.caseStudyDas.testimonial
+        }}
+      />
 
       <Footer dict={dict.footer} lang={lang} />
     </>
