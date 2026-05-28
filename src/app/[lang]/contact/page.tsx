@@ -120,22 +120,8 @@ export default async function ContactPage({
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  {/* Budget Estimate */}
-                  <div className="relative">
-                    <select defaultValue="" className="w-full bg-transparent border border-slate-700 text-slate-500 rounded-xl px-5 py-4 appearance-none focus:outline-none focus:border-[#2ebf9b] transition-colors">
-                      <option value="" disabled hidden>{q.placeholderBudget}</option>
-                      <option value="small" className="bg-[#1f2029] text-white">$5k - $10k</option>
-                      <option value="medium" className="bg-[#1f2029] text-white">$10k - $25k</option>
-                      <option value="large" className="bg-[#1f2029] text-white">$25k+</option>
-                    </select>
-                    <div className="absolute inset-y-0 right-5 flex items-center pointer-events-none text-slate-500">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
-                    </div>
-                  </div>
-                  {/* Contact Number */}
+                {/* Contact Number */}
+                <div>
                   <CountryPhoneInput placeholder={q.placeholderPhone} />
                 </div>
 

@@ -871,6 +871,11 @@
         "title": "AI Strategie & Data Gereedheid",
         "desc": "Plan jouw AI-reis met deskundige begeleiding en bereid jouw data-infrastructuur voor.",
         "bullets": ["Roadmap creatie", "Data audit", "Architectuur ontwerp", "Build vs buy analyse"]
+      },
+      {
+        "title": "AI Agents",
+        "desc": "Automatiseer jouw workflow met autonome, taakgerichte intelligente agenten.",
+        "bullets": ["Autonome uitvoering", "Tool calling & API's", "Multi-agent systemen", "Human-in-the-loop"]
       }
     ]
   },

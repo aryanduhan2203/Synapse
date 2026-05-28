@@ -105,13 +105,21 @@ export default function Footer({ dict, lang }: FooterProps) {
               {dict.companyTitle}
             </h4>
             <ul className="space-y-3 font-semibold">
-              {dict.company.map((item, idx) => (
-                <li key={idx}>
-                  <Link href={`/${lang}#case-studies`} className="hover:text-teal-400 transition-colors">
-                    {item}
-                  </Link>
-                </li>
-              ))}
+              {dict.company.map((item, idx) => {
+                let href = `/${lang}#case-studies`;
+                if (idx === 0) {
+                  href = `/${lang}/company`;
+                } else if (idx === 4) {
+                  href = `/${lang}/contact`;
+                }
+                return (
+                  <li key={idx}>
+                    <Link href={href} className="hover:text-teal-400 transition-colors">
+                      {item}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

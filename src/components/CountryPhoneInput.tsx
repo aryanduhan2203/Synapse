@@ -60,7 +60,7 @@ interface CountryPhoneInputProps {
 export default function CountryPhoneInput({ placeholder }: CountryPhoneInputProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [search, setSearch] = useState("");
-  const [selectedCountry, setSelectedCountry] = useState(COUNTRIES.find(c => c.code === "IN") || COUNTRIES[0]);
+  const [selectedCountry, setSelectedCountry] = useState(COUNTRIES.find(c => c.code === "NL") || COUNTRIES[0]);
   
   const wrapperRef = useRef<HTMLDivElement>(null);
 

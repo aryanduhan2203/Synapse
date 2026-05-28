@@ -871,6 +871,11 @@
         "title": "AI Strategy & Data Readiness",
         "desc": "Plan your AI journey with expert guidance and prepare your data infrastructure.",
         "bullets": ["Roadmap creation", "Data audit", "Architecture design", "Build vs buy analysis"]
+      },
+      {
+        "title": "AI Agents",
+        "desc": "Automate your workflow with autonomous, task-oriented intelligent agents.",
+        "bullets": ["Autonomous execution", "Tool calling & APIs", "Multi-agent systems", "Human-in-the-loop"]
       }
     ]
   },
